@@ -1,0 +1,32 @@
+.box-pricing-plan {
+    padding: 60px 0px 90px 0px;
+    background-color: #6dc5c22f;
+    background-image: url(../imgs/pages/pricing/bg-pricing.png);
+    background-position: top center;
+    background-repeat: no-repeat;
+    .card-pricing-4 {
+        margin-bottom: 30px;
+    }
+}
+.box-all-blog-red {
+    .card-blog-7 {
+        .card-info {
+            .post-date {
+                background-color: var(--tc-primary-home);
+                color: var(--tc-theme-main);
+            }
+            .link-more {
+                color: var(--tc-primary-home);
+                svg {
+                    fill: var(--tc-primary-home);
+                }
+                &:hover {
+                    color: var(--tc-dark-905);
+                    svg {
+                        fill: var(--tc-dark-905);
+                    }
+                }
+            }
+        }
+    }
+}

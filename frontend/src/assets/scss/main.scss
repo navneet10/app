@@ -1,0 +1,76 @@
+/*===========
+   Theme Name: Vatech - Technology Solutions & Business HTML Template
+   Author : alithemes
+   Support: https://alithemes.ticksy.com
+   Version: 1.0
+=======
+Table of contents
+    01. Theme Default CSS
+    02. Header
+    03. Mobile Menu
+    04. Banner
+    05. Slider
+    06. About
+    07. Services
+    08. Choose
+    09. Project
+    10. Pricing
+    11. Request
+    12. Consulting
+    13. Testimonial
+    14. Features
+    15. Marquee
+    16. Fact
+    17. Team
+    18. Call-back
+    19. Blog
+    20. Contact
+    21. Brand
+    22. 404 Error
+    23. Footer
+==============*/
+// theme utilitiles
+@import 'utils/breakpoints';
+@import 'utils/root';
+// Components
+@import 'components/reboot';
+@import 'components/animation';
+@import 'components/buttons';
+@import 'components/card';
+@import 'components/collapse';
+@import 'components/dropdown';
+@import 'components/form';
+@import 'components/hero';
+@import 'components/offcanvas';
+@import 'components/navbar';
+@import 'components/preloader';
+@import 'components/header';
+@import '../css/vendors/odometer';
+@import '../css/vendors/aos';
+@import 'customize';
+@import 'pages/home1';
+@import 'pages/home2';
+@import 'pages/home3';
+@import 'pages/home4';
+@import 'pages/home5';
+@import 'pages/home6';
+@import 'pages/home7';
+@import 'pages/home8';
+@import 'pages/home9';
+@import 'pages/home10';
+@import 'pages/home11';
+@import 'pages/home12';
+@import 'pages/home13';
+@import 'pages/home14';
+@import 'pages/home15';
+@import 'pages/home16';
+@import 'pages/404';
+@import 'pages/faq';
+@import 'pages/contact';
+@import 'pages/blog';
+@import 'pages/project';
+@import 'pages/pricing';
+@import 'pages/about';
+@import 'pages/services';
+@import 'pages/team';
+@import 'components/responsive';

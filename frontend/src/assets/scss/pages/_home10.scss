@@ -1,0 +1,188 @@
+.box-banner-10 {
+    position: relative;
+    min-height: 800px;
+    background: url(../imgs/pages/home10/bg-banner.png) no-repeat bottom center;
+    .banner-right {
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        height: 100%;
+        z-index: 1;
+        width: 100%;
+        max-width: 40%;
+        background: url(../imgs/pages/home10/banner.png) no-repeat center;
+        background-size: cover;
+        border-radius: 0px 0px 400px 93px;
+    }
+    &::before {
+        content: "";
+        position: absolute;
+        bottom: 0px;
+        left: 0px;
+        height: 620px;
+        width: 620px;
+        background: url(../imgs/pages/home10/bg-banner-2.png) no-repeat top left;
+        z-index: 1;
+    }
+    &::after {
+        content: "";
+        position: absolute;
+        top: -20px;
+        left: 0px;
+        height: 360px;
+        width: 228px;
+        background: url(../imgs/pages/home10/icon-banner.png) no-repeat top left;
+        z-index: 1;
+    }
+    .container {
+        position: relative;
+        z-index: 2;
+    }
+    .banner {
+        padding-top: 180px;
+        padding-bottom: 270px;
+        width: 100%;
+        max-width: 50%;
+    }
+}
+.box-image-about-10 {
+    display: flex;
+    align-items: center;
+    margin: 0px -10px;
+    .image-about-1 {
+        width: 55%;
+        padding: 10px;
+        margin-bottom: 30px;
+    }
+    .image-about-2 {
+        width: 45%;
+        padding: 10px;
+        margin-bottom: 30px;
+    }
+}
+.box-services-10 {
+    background-color: var(--tc-secondery-500);
+    padding: 120px 0px 60px 0px;
+}
+.block-work-process {
+    background: url(../imgs/pages/home10/bg-work.png) no-repeat right 100px top 25px;
+}
+.box-work-process {
+    padding: 120px 0px;
+}
+.box-teams-10 {
+    position: relative;
+    padding-top: 40px;
+    &::before {
+        content: "";
+        height: 176px;
+        background: url(../imgs/pages/home10/bg-dedicated.png) no-repeat top center;
+        background-size: cover;
+        position: absolute;
+        top: 0px;
+        left: -40px;
+        right: -40px;
+        z-index: 1;
+    }
+    .box-swiper {
+        position: relative;
+        z-index: 2;
+    }
+}
+.box-video-10 {
+    padding: 161px 0px;
+    position: relative;
+    background: url(../imgs/pages/home10/bg-video.png) no-repeat top center;
+    &::before {
+        content: "";
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        height: 100%;
+        width: 100%;
+        z-index: 1;
+        background-image: linear-gradient(to right, #00050F, #0055ff7e);
+    }
+    .container {
+        position: relative;
+        z-index: 2;
+    }
+}
+.box-faqs-10 {
+    .box-img-faq-10 {
+        height: 547px;
+        img {
+            vertical-align: top;
+        }
+    }
+}
+.box-images-faq-inner {
+    display: flex;
+    align-items: center;
+    margin: 0px -10px;
+    .images-faq-1 {
+        width: 55%;
+        padding: 0px 10px;
+    }
+    .images-faq-2 {
+        width: 45%;
+        padding: 0px 10px;
+    }
+}
+.box-authors-testimonials {
+    margin-top: 100px;
+    img {
+        height: 60px;
+        width: 60px;
+        margin-right: -12px;
+        border-radius: 50%;
+    }
+}
+.box-testimonials-10 {
+    position: relative;
+    background-color: var(--tc-secondery-500);
+    padding-top: 120px;
+    &::before {
+        content: "";
+        position: absolute;
+        bottom: 0px;
+        right: 0px;
+        z-index: 1;
+        width: 200px;
+        height: 185px;
+        background: url(../imgs/pages/home10/quote.png) no-repeat center;
+        background-size: cover;
+    }
+}
+.box-slider-testimonials-10 {
+    position: relative;
+    .box-button-slider {
+        position: absolute;
+        bottom: 0px;
+        right: 0px;
+    }
+}
+.box-latest-blog-10, .box-about-us-10 {
+    padding: 120px 0px;
+}
+.box-testimonials-10 {
+    .box-button-slider .swiper-button-prev, .box-button-slider .swiper-button-next {
+        border: 1px solid var(--tc-primary-500);
+        background-color: transparent;
+        svg {
+            stroke: var(--tc-theme-main);
+        }
+        &:hover {
+            background-color: var(--tc-primary-500);
+        }
+    }
+    .card-testimonials-7 {
+        .comment-author {
+            display: inline-block;
+            width: 100%;
+            p {
+                margin-bottom: 0px;
+            }
+        }
+    }
+}

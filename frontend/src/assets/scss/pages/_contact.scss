@@ -1,0 +1,45 @@
+.footer-style-12 {
+    position: relative;
+    margin-top: 50px;
+    .section-footer {
+        padding-top: 60px;
+    }
+}
+.box-contact-red {
+    background-color: var(--tc-primary-home);
+    padding: 40px;
+}
+.form-contact-us {
+    padding-left: 140px;
+    .form-control {
+        border: 0px;
+        border-bottom: 1px solid #21212180;
+        border-radius: 0px;
+        padding: 16px 16px 16px 30px;
+        &.user {
+            background-image: url(../imgs/pages/contact/user.png);
+            background-position: left center;
+            background-repeat: no-repeat;
+        }
+        &.email {
+            background-image: url(../imgs/pages/contact/sms.png);
+            background-position: left center;
+            background-repeat: no-repeat;
+        }
+        &.phone {
+            background-image: url(../imgs/pages/contact/call.png);
+            background-position: left center;
+            background-repeat: no-repeat;
+        }
+        &.note {
+            background-image: url(../imgs/pages/contact/note.png);
+            background-position: left center;
+            background-repeat: no-repeat;
+        }
+        &.message {
+            background-image: url(../imgs/pages/contact/message.png);
+            background-position: left center;
+            background-repeat: no-repeat;
+        }
+    }
+}

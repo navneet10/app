@@ -1,0 +1,179 @@
+.card-blog-4.card-blog-13 {
+    padding: 0px;
+    background-color: var(--tc-primary-50);
+    .card-image {
+        width: 41%;
+    }
+    .card-info {
+        width: 59%;
+    }
+}
+.text-border-primary-500 {
+    padding: 6px 15px;
+    border: 1px solid var(--tc-primary-500);
+    display: inline-block;
+}
+.text-border-white {
+    padding: 6px 15px;
+    border: 1px solid var(--tc-theme-main);
+    display: inline-block;
+}
+.box-chat-14 {
+    background: url(../imgs/pages/home14/bg-chat.png) no-repeat center;
+    background-size: cover;
+    padding: 100px 0px;
+}
+.box-chats {
+    display: flex;
+    align-items: center;
+    .left-chat {
+        width: 100%;
+    }
+    .right-chat {
+        min-width: 200px;
+        width: 200px;
+        text-align: right;
+    }
+}
+.box-banner-14 {
+    background: url(../imgs/pages/home14/banner.png) no-repeat top center;
+    background-size: cover;
+    .box-banner-14-inner {
+        background: url(../imgs/pages/home14/bg-banner.png) no-repeat top center;
+        height: 1012px;
+        padding: 250px 0px 250px 0px;
+    }
+    .btn-primary-square-md {
+        font-size: 18px;
+        line-height: 29px;
+        svg {
+            fill: var(--tc-theme-main);
+        }
+    }
+}
+.box-need-help-2 {
+    display: flex;
+    align-items: center;
+    img {
+        margin-right: 15px;
+    }
+}
+.box-images-about-14 {
+    position: relative;
+    .image-about-1 {
+        position: relative;
+        padding: 0px 190px 0px 0px;
+        img {
+            border-radius: 190px 0px 190px 0px;
+        }
+    }
+    .image-about-2 {
+        position: absolute;
+        top: 199px;
+        right: 0px;
+        z-index: 123;
+        .btn-play-2 {
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            right: 0px;
+            bottom: 0px;
+            margin: auto;
+        }
+    }
+    .image-about-3 {
+        position: absolute;
+        right: 0px;
+        top: 0px;
+    }
+}
+.box-about-us-inner {
+    padding-left: 30px;
+}
+.box-offers-14 {
+    padding: 120px 0px;
+    background-color: var(--tc-secondery-600);
+    background-image: url(../imgs/pages/home14/bg-offer.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    .btn-view-all {
+        span {
+            background-color: #ccccce1c;
+        }
+    }
+}
+.text-slide-white {
+    display: flex;
+    align-items: center;
+    padding: 40px 0px;
+    svg {
+        margin-right: 15px;
+    }
+}
+.box-projects-14 {
+    background-color: var(--tc-primary-500);
+    padding: 120px 0px;
+}
+.slide-projects-center {
+    .swiper-slide-active {
+        .card-project-7 {
+            margin: 0px -30px;
+            position: relative;
+            top: -30px;
+            .card-info {
+                bottom: 0px;
+            }
+        }
+    }
+}
+.box-slide-projects {
+    padding-top: 60px;
+}
+.box-team-14, .box-testimonials-14 {
+    padding: 120px 0px;
+}
+.box-video-14 {
+    .box-info-video-bottom {
+        background-color: var(--tc-secondery-500);
+        background-image: none;
+    }
+}
+.box-button-slider-14 {
+    text-align: center;
+    padding-top: 50px;
+    .swiper-button-prev-style-1, .swiper-button-next-style-1 {
+        background-color: #012b4354;
+        border: 0px;
+        margin: 0px 8px;
+        line-height: 27px;
+        svg {
+            stroke: var(--tc-theme-main);
+        }
+        &:hover {
+            background-color: var(--tc-secondery-500);
+        }
+    }
+}
+.box-button-slider-project {
+    text-align: center;
+    margin-top: 20px;
+    .swiper-button-prev-center, .swiper-button-next-center {
+        background-color: #ffffff23;
+        border: 0px;
+        svg {
+            stroke: var(--tc-theme-main);
+        }
+        &:hover {
+            background-color: var(--tc-theme-main);
+            svg {
+                stroke: var(--tc-dark-950);
+            }
+        }
+    }
+}
+.footer-style-home-14 {
+    background-image: url(../imgs/pages/home14/bg-footer.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

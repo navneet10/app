@@ -1,0 +1,812 @@
+// `xxl` applies to x-large devices (large desktops, less than 1400px)
+@media screen and (max-width: 1399.98px) {
+    .header-style-14 .menu-nav-14 {
+        margin-left: 0px !important;
+    }
+    .header-need-help {
+        padding-left: 20px;
+    }
+    .card-pricing-4 {
+        padding: 40px 20px;
+    }
+    .card-pricing-6 {
+        padding: 0px;
+    }
+    .card-pricing-5 {
+        .btn-border-950 {
+            padding: 12px 20px;
+            font-size: 14px;
+            line-height: 24px;
+        }
+    }
+    .box-employees {
+        right: -65%;
+    }
+    .header-style-12 {
+        .btn-menu {
+            margin-left: 20px !important;
+            margin-right: 0px !important;
+        }
+    }
+}
+// `xl` applies to large devices (desktops, less than 1200px)
+@media screen and (max-width: 1199.98px) {
+    .navbar-nav {
+        display: none;
+    }
+    .btn-menu {
+        margin-right: 0px;
+        margin-left: 0px !important;
+        svg {
+            stroke: var(--tc-theme-main);
+        }
+    }
+    .header-style-10 {
+        .btn-menu {
+            svg {
+                stroke: var(--tc-primary-500);
+            }
+        }   
+    }
+    .box-info-contact {
+        flex-wrap: wrap;
+        .image-contact {
+            margin-bottom: 30px;
+        }
+        .box-contact-phone {
+            flex-wrap: wrap;
+        }
+    }
+    .navbar-nav-mobile {
+        display: block !important;
+    }
+    .card-blog.card-blog-4 .card-image {
+        width: 40%;
+    }
+    .card-blog.card-blog-4 .card-info {
+        width: 60%;
+    }
+    .box-header-right-buttons {
+        justify-content: flex-end;
+        width: 100%;
+    }
+    .box-list-numbers .item-number {
+        width: 50%;
+    }
+    .display-4xl-bold {
+        font-size: 60px;
+        line-height: 70px;
+    }
+    .box-faqs-10 .box-img-faq-10 {
+        height: 397px;
+    }
+    .container-contact-section {
+        flex-wrap: wrap;
+        .contact-section-left, .contact-section-right {
+            width: 100%;
+        }
+    }
+    .display-ag-6xl {
+        font-size: 88px;
+        line-height: 90px;
+    }
+    .box-banner-12 {
+        padding: 70px 0px;
+        background-size: auto 80%;
+    }
+    .box-case-study-12::before {
+        width: 60%;
+    }
+    .box-banner-11 {
+        background-size: auto 90%;
+        padding: 90px 0px 90px 0px;
+        .banner {
+            padding: 90px 0px 150px 0px;
+        }
+    }
+    .box-employees {
+        right: auto;
+        bottom: 0px;
+        top: auto;
+        left: 0px;
+    }
+    .box-contact-11 .contact-button {
+        padding: 0px 10px 0px 10px;
+        min-width: 182px;
+    }
+    .blog-main-content .blog-content-left {
+        width: 65%;
+    }
+    .blog-main-content .blog-content-right {
+        width: 35%;
+    }
+    .box-banner-16 .box-banner-16-inner .banner {
+        background-image: none;
+    }
+}
+// `lg` applies to medium devices (tablets, less than 992px)
+@media screen and (max-width: 991.98px) {
+    .card-testimonials-12 {
+        flex-wrap: wrap;
+        .card-image {
+            padding-right: 0px;
+            margin-bottom: 30px;
+        }
+        .card-image, .card-info {
+            width: 100%;
+        }
+    }
+    .box-about-us-2 {
+        .box-about-us-inner {
+            padding-top: 140px;
+        }
+    }
+    .card-project-7 .card-info {
+        padding: 20px;
+        .heading-3xl {
+            font-size: 18px;
+            line-height: 25px;
+        }
+        .read-more {
+            top: -23px;
+            right: 20px;
+            height: 46px;
+            width: 46px;
+            line-height: 42px;
+        }
+    }
+    .title-banner {
+        font-size: 60px;
+        line-height: 70px;
+        font-weight: 700;
+        margin-bottom: 30px;
+    }
+    .text-rotate-circle {
+        padding-right: 15px;
+    }
+    .box-banner {
+        padding-bottom: 309px;
+    }
+    .box-banner {
+        background-size: cover;
+        padding-top: 80px;
+    }
+    .item-square-1 {
+        width: 90%;
+    }
+    .box-list-process .item-process {
+        width: 50%;
+    }
+    .box-services-lists {
+        flex-wrap: wrap;
+        .service-left {
+            width: 100%;
+        }
+        .service-right {
+            width: 100%;
+        }
+        .item-service:last-child {
+            border-bottom: 1px solid var(--tc-dark-950);
+        }
+    }
+    .box-touch {
+        flex-wrap: wrap;
+    }
+    .box-touch .touch-left {
+        padding: 30px 20px;
+        width: 100%;
+    }
+    .box-touch .touch-right {
+        width: 100%;
+    }
+    .display-ag-2xl {
+        font-size: 48px;
+    }
+    .box-testimonial-3::before, .box-testimonial-3::after {
+        height: 51%;
+    }
+    .client-logos {
+        justify-content: center;
+        .item-logo {
+            padding: 0px 10px;
+            margin-bottom: 20px;
+            img {
+                max-height: 50px;
+            }
+        }
+    }
+    .box-testimonial-3 {
+        background-position: top 10px left;
+        background-size: 170px;
+    }
+    .box-list-process-2 .item-process::before {
+        right: 6px;
+    }
+    .box-newsletter {
+        flex-wrap: wrap;
+        .newsletter-left {
+            width: 100%;
+            margin-bottom: 40px;
+        }
+        .newsletter-right {
+            width: 100%;
+        }
+    }
+    .box-numbers {
+        flex-wrap: wrap;
+    }
+    .box-banner-6 {
+        padding-top: 215px;
+    }
+    .display-4xl {
+        font-size: 60px;
+        line-height: 65px;
+    }
+    .heading-48-fitree {
+        font-size: 38px;
+        line-height: 44px;
+    }
+    .heading-80-fitree {
+        font-size: 50px;
+        line-height: 60px;
+    }
+    .box-banner-7::before {
+        height: 160px;
+    }
+    .list-why-choose .item-why {
+        width: 100%;
+        margin-bottom: 30px;
+        justify-content: center;
+    }
+    .box-why-choose {
+        padding-top: 65px;
+    }
+    .box-about-us-7 {
+        background-position: right 3px bottom 88px;
+    }
+    .box-faqs-8-inner .box-faqs-8-bg {
+        background-size: cover;
+        position: relative;
+        left: auto;
+        top: auto;
+        height: 721px;
+        width: 100%;
+        max-width: 100%;
+    }
+    .box-list-projects-9 {
+        flex-wrap: wrap;
+    }
+    .box-list-projects-9 .box-ul {
+        max-width: 100%;
+        padding: 0px 15px;
+    }
+    .box-list-projects-9 .box-content-tab {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .container-testimonials .testimonial-left .testimonial-left-inner {
+        max-width: 100%;
+    }
+    .container-testimonials .testimonial-right {
+        position: relative;
+        top: auto;
+        transform: none;
+        right: auto;
+        width: 100%;
+        padding: 40px 20px 10px 20px;
+    }
+    .card-testimonial-9 .card-info .box-review-author {
+        margin-top: 60px;
+    }
+    .block-can-help {
+        flex-wrap: wrap;
+    }
+    .block-can-help .block-right {
+        min-width: 100%;
+    }
+    .box-banner-10 .banner-right {
+        position: relative;
+        top: auto;
+        right: auto;
+        height: 600px;
+        max-width: 100%;
+    }
+    .box-banner-10 .banner {
+        padding-top: 60px;
+        padding-bottom: 60px;
+        width: 100%;
+        max-width: 100%;
+    }
+    .box-banner-10::after {
+        top: -3px;
+        height: 90px;
+        width: 48px;
+        background-size: contain;
+    }
+    .box-testimonials-10::before {
+        width: 55px;
+        height: 55px;
+    }
+    .box-faqs-10 .box-img-faq-10 {
+        height: 607px;
+    }
+    .box-faq-16 .box-images-faq-inner {
+        margin-right: 0px;
+    }
+    .box-info-about-top {
+        padding-left: 0px;
+    }
+    .box-info-about-line::before {
+        top: 0px;
+    }
+    .box-info-about-line {
+        padding-left: 0px;
+        padding-top: 30px;
+    }
+    .box-banner-13-inner {
+        padding: 70px 0px;
+    }
+    .box-testimonials-13 .swiper-button-prev-style-6 {
+        left: -30px;
+    }
+    .box-testimonials-13 .swiper-button-next-style-6 {
+        right: -30px;
+    }
+    .box-banner-12 {
+        background-image: none;
+        padding: 70px 0px;
+    }
+    .box-about-us-12 .box-images-about {
+        padding-left: 0px;
+        padding-top: 40px;
+    }
+    .box-banner-11 {
+        background-size: auto 90%;
+        background-image: none;
+    }
+    .box-newsletter-footer .newsletter-right {
+        min-width: 50%;
+    }
+    .display-ag-5xl {
+        font-size: 80px;
+    }
+    .box-contact-11 {
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    .box-contact-11 .contact-phone::before {
+        display: none;
+    }
+    .box-contact-11 .contact-text {
+        padding: 0px 30px;
+        width: 72%;
+    }
+    .box-contact-11 .contact-button {
+        padding-left: 30px;
+        min-width: auto;
+    }
+    .box-contact-11 .contact-phone {
+        width: 100%;
+        min-width: auto;
+        margin-bottom: 30px;
+    }
+    .box-banner-11 .banner {
+        padding-top: 0px;
+    }
+    .form-contact-us {
+        padding-left: 0px;
+        padding-top: 30px;
+    }
+    .blog-main-content .blog-content-left {
+        width: 100%;
+    }
+    .blog-main-content {
+        flex-wrap: wrap;
+    }
+    .blog-main-content .blog-content-right {
+        width: 100%;
+    }
+}
+// `md` applies to small devices (landscape phones, less than 768px)
+@media screen and (max-width: 767.98px) {
+    .heading-3xl {
+        font-size: 38px;
+        line-height: 48px;
+    }
+    .box-video {
+        height: 400px;
+    }
+    .box-chats {
+        flex-wrap: wrap;
+        .left-chat, .right-chat {
+            width: 100%;
+        }
+        .right-chat {
+            text-align: left;
+        }
+    }
+    .top-footer .box-contact-phone {
+        padding: 30px 20px;
+    }
+    .box-video a {
+        top: 12%;
+        bottom: auto;
+    }
+    .card-blog-13 {
+        padding: 20px;
+    }
+    .block-video {
+        height: 470px;
+    }
+    .box-list-projects {
+        flex-wrap: wrap;
+        justify-content: center;
+        .item-project {
+            width: 33.33%;
+            margin-bottom: 30px;
+        }
+    }
+    .box-services-lists .service-right {
+        padding: 55px 21px 55px 21px;
+    }
+    .box-banner-4 {
+        padding-top: 170px;
+        padding-bottom: 50px;
+    }
+    .box-list-process-2 .item-process {
+        width: 50%;
+        &:last-child {
+            &::before {
+                display: block;
+            }
+        }
+        &:nth-child(2n) {
+            &::before {
+                display: none;
+            }
+        }
+    }
+    .footer-5 .top-footer .box-contact-phone {
+        padding: 40px 0px 10px 0px;
+    }
+    .box-number-about .item-number {
+        padding: 15px 15px 25px 15px;
+        margin-right: 10px;
+    }
+    .box-image-about-7 {
+        flex-wrap: wrap;
+        .image-left {
+            width: 100%;
+        }
+        .image-right {
+            width: 100%;
+        }
+    }
+    .box-list-projects-2 .item-project {
+        width: 50%;
+    }
+    .box-logos-partner .item-partner {
+        width: 33.33%;
+        &.text-end {
+            text-align: center !important;
+        }
+    }
+    .top-footer-logo {
+        flex-wrap: wrap;
+    }
+    .top-footer-logo .left-footer {
+        width: 100%;
+        padding: 40px 20px;
+    }
+    .top-footer-logo .middle-footer {
+        width: 100%;
+    }
+    .top-footer-logo .right-footer {
+        width: 100%;
+        padding: 40px 20px;
+    }
+    .box-faqs-8-inner .box-faqs-8-bg::before {
+        width: 175px;
+        height: 421px;
+    }
+    .display-2xl {
+        font-size: 36px;
+        line-height: 46px;
+    }
+    .slide-banner-home-9 {
+        padding-top: 50px;
+        padding-bottom: 250px;
+        .box-buttons {
+            .btn {
+                margin-right: 0px !important;
+            }
+        }
+    }
+    .box-faqs-10 .box-img-faq-10 {
+        height: 450px;
+    }
+    .box-case-study-12::before {
+        width: 100%;
+    }
+    .box-button-slider-red .swiper-button-prev, .box-button-slider-red .swiper-button-next {
+        background-color: rgb(255 255 255 / 12%);
+    }
+    .box-number-12 .box-list-numbers .item-number .item-number-inner {
+        padding: 20px;
+    }
+    .box-number-12 .box-list-numbers .item-number .item-number-inner .number-left {
+        padding-right: 10px;
+        min-width: 80px;
+    }
+    .card-testimonials-9 .card-image {
+        width: 100%;
+        padding-right: 0px;
+    }
+    .card-testimonials-9 .card-info {
+        width: 100%;
+        padding-top: 30px;
+    }
+    .box-newsletter-footer {
+        padding: 25px 30px;
+        flex-wrap: wrap;
+    }
+    .box-newsletter-footer .newsletter-right {
+        min-width: 100%;
+    }
+    .box-contact-11 .contact-text {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .box-faq-single-banner-inner::before {
+        height: 172px;
+        width: 176px;
+        background-size: cover !important;
+    }
+    .box-faq-single-banner-inner::after {
+        height: 206px;
+        width: 255px;
+        background-size: cover !important;
+    }
+    .box-videos-services-4-inner {
+        padding: 0px 50px;
+    }
+    .box-image-about-8 {
+        width: 100%;
+    }
+    .image-circle {
+        right: -10px;
+    }
+}
+// `sm` applies to x-small devices (portrait phones, less than 576px)
+@media screen and (max-width: 575.98px) {
+    .box-list-process .item-process {
+        width: 100%;
+    }
+    .box-list-projects {
+        .item-project {
+            width: 50%;
+            margin-bottom: 15px;
+            &.mt-5 {
+                margin-top: 15px !important;
+            }
+        }
+    }
+    .box-experience {
+        margin: auto;
+    }
+    .heading-68-fitree {
+        font-size: 48px;
+        line-height: 58px;
+    }
+    .box-newsletter {
+        padding: 35px 20px;
+        .heading-ag-3xl {
+            font-size: 30px;
+            line-height: 110%;
+        }
+    }
+    .box-newsletter .newsletter-right .form-newsletter .btn-newsletter {
+        font-size: 14px;
+        padding: 0px 12px;
+    }
+    .box-number-about .item-number {
+        margin-bottom: 20px;
+    }
+    .heading-3xl {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .box-images-faq-inner {
+        flex-wrap: wrap;
+    }
+    .box-images-faq-inner .images-faq-1 {
+        margin-bottom: 30px;
+        width: 100%;
+    }
+    .box-images-faq-inner .images-faq-2 {
+        width: 100%;
+    }
+    .box-faqs-10 .box-img-faq-10 {
+        height: auto;
+    }
+    .box-image-about-us-2 .image-about-1::after {
+        top: -45px;
+        left: 70px;
+    }
+    .box-image-about-us-2 .image-about-2 {
+        max-width: 70%;
+        bottom: -48px;
+    }
+    .box-testimonials-13 .swiper-button-prev-style-6 {
+        left: -10px;
+    }
+    .box-testimonials-13 .swiper-button-next-style-6 {
+        right: -10px;
+    }
+    .footer-style-10 .top-footer {
+        flex-wrap: wrap;
+        .top-footer-left {
+            width: 100%;
+            margin-bottom: 30px;
+        }
+        .top-footer-right {
+            width: 100%;
+        }
+    }
+    .slide-footer-brand .slide-footer-brand-inner .slide-footer-brand-inner-2 .container {
+        padding: 0px 50px 0px 70px;
+    }
+    .heading-ag-3xl {
+        font-size: 38px;
+    }
+    .block-faqs {
+        padding-right: 10px;
+    }
+    .header-style-11 {
+        .navbar .container-fluid {
+            padding-left: 15px;
+            padding-right: 16px;
+            display: flex;
+        }
+        .header-need-help {
+            display: none;
+        }
+    }
+    .block-new-models {
+        flex-wrap: wrap;
+        .new-models-left {
+            width: 100%;
+        }
+        .new-models-right {
+            text-align: left;
+            margin-top: 30px;
+        }
+    }
+    .box-latest-blog-11 {
+        padding: 0px 0px;
+    }
+    .box-videos-services-4-inner {
+        padding: 0px 10px;
+    }
+    .box-form-contact {
+        padding: 40px 30px 30px 30px;
+    }
+    .navbar .navbar-brand {
+        padding-right: 0px !important;
+    }
+    .box-paginations .pagination li a {
+        display: inline-block;
+        border-radius: 3px !important;
+        font-size: 16px;
+        padding: 7px 15px;
+    }
+    .box-paginations .pagination li {
+        padding: 0px 3px;
+    }
+}
+@media screen and (max-width: 500px) {
+    .box-banner-12 .box-banner-12-inner .list-tick-2-col li {
+        width: 100%;
+    }
+    .card-testimonial-9 .card-info .box-review-author {
+        padding-right: 0px;
+        &::before {
+            display: none;
+        }
+    }
+}
+// `xs` applies to x-small devices (portrait phones, less than 475px)
+@media screen and (max-width: 474.98px) {
+    .display-xl {
+        font-size: 52px;
+        line-height: 62px;
+    }
+    .box-title-top {
+        flex-wrap: wrap;
+        .text-rotate-circle {
+            margin-bottom: 30px;
+        }
+    }
+    .stroke-text {
+        right: -70px;
+    }
+    .card-pricing-2 {
+        padding: 20px;
+    }
+    .box-list-process-2 .item-process {
+        width: 100%;
+        &::before {
+            display: none;
+        }
+    }
+    .box-logos-partner .item-partner {
+        width: 50%;
+    }
+    .box-list-numbers .item-number {
+        width: 100%;
+    }
+    .list-feedbacks li ul li {
+        .item-feedback {
+            flex-wrap: wrap;
+            .info-feedback {
+                width: 100%;
+                margin-top: 20px;
+            }
+        }
+    }
+    .box-images-about-16 .image-about-1 .card-number .card-years {
+        min-width: 70px;
+    }
+}
+@media screen and (max-width: 450px) {
+    .card-blog-4.card-blog-13 {
+        flex-wrap: wrap;
+        .card-image, .card-info {
+            width: 100%;
+        }
+        .card-info {
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+    }
+}
+@media screen and (max-width: 374.98px)
+{
+    .box-images-about-16 {
+        flex-wrap: wrap;
+        .image-about-1, .image-about-2 {
+            width: 100%;
+            > img {
+                width: 100%;
+            }
+        }
+        .image-about-1 {
+            margin-bottom: 30px;
+            padding-bottom: 250px;
+            position: relative;
+            .card-number {
+                bottom: 130px;
+                right: 15px;
+                left: 15px;
+                max-width: 100%;
+            }
+            .box-img-circle {
+                position: absolute;
+                right: 15px;
+                bottom: 0px;
+            }
+        }
+    }
+}
+// `lg` applies to medium devices (PC, bigger than 992px)
+@media screen and (min-width: 992px) {
+    .pe-lg-10 {
+        padding-right: 6rem !important;
+    }
+    .ps-lg-4 {
+        padding-left: 1.5rem !important;
+    }
+    .ms-lg-8 {
+        margin-left: 4rem !important;
+    }
+}

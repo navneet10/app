@@ -1,0 +1,77 @@
+@import url(https://fonts.bunny.net/css?family=figtree:300,400,500,600,700,800,900|rajdhani:300,400,500,600,700|rubik:400,500,600,700|inter:700|plus-jakarta-sans:700);
+// Font Family
+$theme-fonts: (
+    body: (
+        font-family: "'Figtree', sans-serif",
+    ),
+    heading: (
+        font-family: "'Figtree', sans-serif",
+    ),
+    display: (
+        font-family: "'Figtree', sans-serif",
+    ),
+    ag: (
+        font-family: "'Rajdhani', sans-serif",
+    ),
+    rubik: (
+        font-family: "'Rubik', sans-serif",
+    ),
+    inter: (
+        font-family: "'inter', sans-serif",
+    ),
+    jakarta: (
+        font-family: "'Plus Jakarta Sans', sans-serif",
+    ),
+);
+// Font Size
+$font-size: (
+    body: (
+        font-size: 16px,
+    ),
+    fs: (
+        1: 40px,
+        2: 32px,
+        3: 28px,
+        4: 24px,
+        5: 20px,
+        6: 16px,
+        7: 14px,
+        8: 12px,
+    ),
+    ds: (
+        1: 80px,
+        2: 72px,
+        3: 64px,
+        4: 56px,
+        5: 48px,
+        6: 40px,
+    ),
+    ds-xs: (
+        1: 64px,
+        2: 56px,
+        3: 48px,
+        4: 36px,
+        5: 28px,
+        6: 24px,
+    ),
+);
+// Line Height
+$theme-lh: (
+    body: (
+        line-height: 1.5,
+    ),
+    heading: (
+        line-height: 1.2,
+    ),
+);
+// Font Weight
+$font-weight: (
+    fw: (
+        extra-bold: 800,
+        bold: 700,
+        semi-bold: 600,
+        medium: 500,
+        regular: 400,
+        light: 300,
+    ),
+);

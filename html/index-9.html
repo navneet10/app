@@ -1,0 +1,1773 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>Shared on THEMELOCK.COM - Home 9 - Technology Solutions & Business HTML Template</title>
+    <!-- Favicon icon-->
+    <link rel="shortcut icon" type="image/x-icon" href="assets/imgs/template/favicon.svg" />
+    <!-- Libs CSS -->
+    <link rel="stylesheet" href="assets/css/vendors/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/vendors/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="assets/css/vendors/aos.css" />
+    <link rel="stylesheet" href="assets/css/vendors/magnific-popup.css" />
+    <link rel="stylesheet" href="assets/fonts/bootstrap-icons/bootstrap-icons.min.css" />
+    <link rel="stylesheet" href="assets/fonts/boxicons/boxicons.min.css" />
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="assets/css/main.css" />
+
+</head>
+
+<body>
+    <!-- prettier-ignore -->
+    <!--Preloader-->
+    <div id="preloader">
+        <div id="loader" class="loader">
+            <div class="loader-container">
+                <div class="loader-icon"><img src="assets/imgs/template/favicon.svg" alt="Preloader"></div>
+            </div>
+        </div>
+    </div>
+    <!--Preloader-end -->
+    <div id="myOverlay" class="overlay search-popup">
+        <div class="overlay-content">
+            <span class="search-close closebtn" onclick="closeSearch()">
+                <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0 0 24 24">
+                    <path d="M 4.7070312 3.2929688 L 3.2929688 4.7070312 L 10.585938 12 L 3.2929688 19.292969 L 4.7070312 20.707031 L 12 13.414062 L 19.292969 20.707031 L 20.707031 19.292969 L 13.414062 12 L 20.707031 4.7070312 L 19.292969 3.2929688 L 12 10.585938 L 4.7070312 3.2929688 z"></path>
+                </svg>
+            </span>
+            <form action="#">
+                <input type="text" placeholder="Search.." name="search" />
+                <button type="submit" class="btn btn-primary-500">Search</button>
+            </form>
+        </div>
+    </div>
+
+    <!--top-bar-->
+    <section class="top-bar position-relative z-4 d-none d-md-block top-bar-style-9">
+        <div class="container-fluid">
+            <div class="container">
+                <div class="d-flex mb-lg-0 flex-wrap align-items-center justify-content-center justify-content-lg-between gap-4 top-bar-inner">
+                    <div class="box-infos-contact d-flex align-items-center">
+                        <div class="address">
+                            <svg width="23" height="30" viewBox="0 0 23 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M11.25 0C8.26752 0.00395631 5.40834 1.19049 3.29942 3.29941C1.19049 5.40834 0.00395631 8.26752 0 11.25C0 19.3265 10.4812 29.4422 10.9266 29.8687C11.0132 29.9529 11.1292 30 11.25 30C11.3708 30 11.4868 29.9529 11.5734 29.8687C12.0187 29.4422 22.5 19.3265 22.5 11.25C22.496 8.26752 21.3095 5.40834 19.2006 3.29941C17.0916 1.19049 14.2325 0.00395631 11.25 0ZM11.25 16.4062C10.2302 16.4062 9.23327 16.1038 8.38533 15.5372C7.53739 14.9707 6.8765 14.1654 6.48624 13.2232C6.09598 12.281 5.99387 11.2443 6.19282 10.2441C6.39177 9.24384 6.88286 8.32509 7.60397 7.60397C8.32509 6.88286 9.24384 6.39177 10.2441 6.19282C11.2443 5.99386 12.281 6.09598 13.2232 6.48624C14.1654 6.8765 14.9707 7.53739 15.5372 8.38533C16.1038 9.23327 16.4062 10.2302 16.4062 11.25C16.4054 12.6173 15.8619 13.9283 14.8951 14.8951C13.9283 15.8619 12.6173 16.4054 11.25 16.4062Z" fill="#012B43" />
+                            </svg>
+                            <div>
+                                <span class="gray-900 d-block">Location</span>
+                                62, Business Str Hobert, AU
+                            </div>
+                        </div>
+                        <div class="email">
+                            <svg width="31" height="30" viewBox="0 0 31 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M23.3077 19.8482C22.3276 18.8806 21.104 18.8806 20.1301 19.8482C19.3872 20.5848 18.6443 21.3215 17.9139 22.0706C17.7142 22.2766 17.5456 22.3203 17.3022 22.183C16.8215 21.9208 16.3096 21.7085 15.8476 21.4213C13.6939 20.0667 11.8897 18.325 10.2916 16.3647C9.49877 15.3909 8.79334 14.3483 8.30017 13.1747C8.20028 12.9375 8.21901 12.7814 8.41253 12.5879C9.15542 11.87 9.87957 11.1333 10.61 10.3967C11.6275 9.3729 11.6275 8.1743 10.6037 7.14425C10.0232 6.55743 9.44258 5.9831 8.86201 5.39629C8.26271 4.79699 7.66965 4.19144 7.06411 3.59839C6.084 2.64325 4.86043 2.64325 3.88657 3.60463C3.13744 4.34127 2.41953 5.09664 1.65792 5.82079C0.952489 6.48876 0.596654 7.30656 0.521741 8.2617C0.403129 9.81613 0.783935 11.2832 1.32081 12.7128C2.41953 15.6718 4.09258 18.3 6.12146 20.7097C8.86201 23.9684 12.1332 26.5466 15.96 28.4069C17.683 29.2435 19.4684 29.8865 21.4099 29.9926C22.7458 30.0675 23.907 29.7304 24.8371 28.6879C25.4739 27.9762 26.1918 27.327 26.866 26.6465C27.8648 25.6352 27.8711 24.4116 26.8785 23.4128C25.6924 22.2204 24.5 21.0343 23.3077 19.8482Z" fill="#012B43" />
+                                <path d="M22.1148 14.8713L24.4183 14.478C24.0562 12.3617 23.0574 10.4452 21.5404 8.92197C19.9361 7.3176 17.9072 6.30628 15.6723 5.99414L15.3477 8.31019C17.0769 8.55366 18.6501 9.33399 19.8924 10.5763C21.066 11.7499 21.8338 13.2357 22.1148 14.8713Z" fill="#012B43" />
+                                <path d="M25.7156 4.85683C23.0562 2.19744 19.6914 0.518146 15.977 0L15.6523 2.31605C18.8611 2.76552 21.7702 4.22008 24.0675 6.51115C26.2462 8.68986 27.6758 11.4429 28.194 14.4706L30.4975 14.0773C29.892 10.5689 28.2377 7.38513 25.7156 4.85683Z" fill="#012B43" />
+                            </svg>
+                            <div>
+                                <span class="gray-900 d-block">Call</span>
+                                info@vatech.com
+                            </div>
+                        </div>
+                        <div class="phone">
+                            <svg width="31" height="30" viewBox="0 0 31 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <g clip-path="url(#clip0_4249_4555)">
+                                    <path d="M19.9373 16.248L17.4247 18.7691C16.4059 19.7916 14.6131 19.8136 13.5722 18.7691L11.0595 16.248L2.03516 25.3017C2.37107 25.4571 2.74145 25.5497 3.1352 25.5497H27.8618C28.2555 25.5497 28.6258 25.4572 28.9616 25.3018L19.9373 16.248Z" fill="#012B43" />
+                                    <path d="M27.8616 4.45312H3.13508C2.74133 4.45312 2.37096 4.54582 2.03516 4.70115L11.6783 14.3763C11.679 14.377 11.6797 14.3771 11.6804 14.3777C11.681 14.3784 11.6812 14.3793 11.6812 14.3793L14.8167 17.5252C15.1497 17.8582 15.8471 17.8582 16.1802 17.5252L19.315 14.3798C19.315 14.3798 19.3158 14.3784 19.3164 14.3777C19.3164 14.3777 19.3179 14.377 19.3185 14.3763L28.9614 4.70109C28.6256 4.5457 28.2554 4.45312 27.8616 4.45312Z" fill="#012B43" />
+                                    <path d="M0.78043 5.92969C0.606641 6.28113 0.5 6.67125 0.5 7.08914V22.9095C0.5 23.3273 0.606523 23.7175 0.780371 24.0689L9.82039 14.9996L0.78043 5.92969Z" fill="#012B43" />
+                                    <path d="M30.2196 5.92969L21.1797 14.9997L30.2196 24.0691C30.3934 23.7177 30.5 23.3276 30.5 22.9096V7.08926C30.5 6.67125 30.3934 6.28113 30.2196 5.92969Z" fill="#012B43" />
+                                </g>
+                                <defs>
+                                    <clipPath id="clip0_4249_4555">
+                                        <rect width="30" height="30" fill="white" transform="translate(0.5)" />
+                                    </clipPath>
+                                </defs>
+                            </svg>
+                            <div>
+                                <span class="gray-900 d-block">Email</span>
+                                +98 90980798
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box-socials d-none d-lg-block">
+                        <a href="https://www.facebook.com/" class=" text-reset">
+                            <img src="assets/imgs/template/icons/fb.svg" alt="Vatech" />
+                        </a>
+                        <a href="https://twitter.com/" class=" text-reset">
+                            <img src="assets/imgs/template/icons/tw.svg" alt="Vatech" />
+                        </a>
+                        <a href="https://www.instagram.com/" class=" text-reset">
+                            <img src="assets/imgs/template/icons/ins.svg" alt="Vatech" />
+                        </a>
+                        <a href="https://www.linkedin.com/" class=" text-reset">
+                            <img src="assets/imgs/template/icons/linkedin.svg" alt="Vatech" />
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Navbar -->
+    <header class="header-style-9">
+        <nav class="navbar navbar-expand-lg navbar-light w-100">
+            <div class="container px-3">
+                <a class="navbar-brand pe-4" href="index.html"><img src="assets/imgs/template/logo.svg" alt /></a>
+                <ul class="navbar-nav gap-1 align-items-lg-center m-auto">
+                    <li class="nav-item dropdown menu-item-has-children">
+                        <a class="nav-link fw-medium" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Home</a>
+                        <div class="mega-menu">
+                            <div class="row">
+                                <div class="col-6">
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="index.html">Home page 01</a></li>
+                                        <li><a class="dropdown-item" href="index-2.html">Home page 02</a></li>
+                                        <li><a class="dropdown-item" href="index-3.html">Home page 03</a></li>
+                                        <li><a class="dropdown-item" href="index-4.html">Home page 04</a></li>
+                                        <li><a class="dropdown-item" href="index-5.html">Home page 05</a></li>
+                                        <li><a class="dropdown-item" href="index-6.html">Home page 06</a></li>
+                                        <li><a class="dropdown-item" href="index-7.html">Home page 07</a></li>
+                                        <li><a class="dropdown-item" href="index-8.html">Home page 08</a></li>
+                                    </ul>
+                                </div>
+                                <div class="col-6">
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="index-9.html">Home page 09</a></li>
+                                        <li><a class="dropdown-item" href="index-10.html">Home page 10</a></li>
+                                        <li><a class="dropdown-item" href="index-11.html">Home page 11</a></li>
+                                        <li><a class="dropdown-item" href="index-12.html">Home page 12</a></li>
+                                        <li><a class="dropdown-item" href="index-13.html">Home page 13</a></li>
+                                        <li><a class="dropdown-item" href="index-14.html">Home page 14</a></li>
+                                        <li><a class="dropdown-item" href="index-15.html">Home page 15</a></li>
+                                        <li><a class="dropdown-item" href="index-16.html">Home page 16</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown menu-item-has-children">
+                        <a class="nav-link fw-medium" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">About</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="about-us.html">About Us</a></li>
+                            <li><a class="dropdown-item" href="about-us-2.html">About Us 2</a></li>
+                            <li><a class="dropdown-item" href="about-us-3.html">About Us 3</a></li>
+                            <li><a class="dropdown-item" href="about-us-4.html">About Us 4</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown menu-item-has-children">
+                        <a class="nav-link fw-medium" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Services</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="services.html">Services 01</a></li>
+                            <li><a class="dropdown-item" href="services-2.html">Services 02</a></li>
+                            <li><a class="dropdown-item" href="services-3.html">Services 03</a></li>
+                            <li><a class="dropdown-item" href="services-4.html">Services 04</a></li>
+                            <li><a class="dropdown-item" href="service-detail.html">Services Details 01</a></li>
+                            <li><a class="dropdown-item" href="service-detail-2.html">Services Details 02</a></li>
+                            <li><a class="dropdown-item" href="service-detail-3.html">Services Details 03</a></li>
+                            <li><a class="dropdown-item" href="service-detail-4.html">Services Details 04</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown menu-item-has-children">
+                        <a class="nav-link fw-medium" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Projects</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="project.html">Project List</a></li>
+                            <li><a class="dropdown-item" href="project-detail.html">Project Details</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown menu-item-has-children">
+                        <a class="nav-link fw-medium" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">News</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="news-grid.html">News Grid</a></li>
+                            <li><a class="dropdown-item" href="news-grid-sidebar.html">News Grid Sidebar</a></li>
+                            <li><a class="dropdown-item" href="news-details.html">Blog Details</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown menu-item-has-children">
+                        <a class="nav-link fw-medium" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Pages</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="contact.html">Contact Us</a></li>
+                            <li><a class="dropdown-item" href="pricing.html">Pricing</a></li>
+                            <li><a class="dropdown-item" href="team.html">Team</a></li>
+                            <li><a class="dropdown-item" href="team-detail.html">Team Details</a></li>
+                            <li><a class="dropdown-item" href="faq.html">FAQs</a></li>
+                            <li><a class="dropdown-item" href="404.html">Error 404</a></li>
+                        </ul>
+                    </li>
+                </ul>
+
+                <div class="d-flex align-items-center">
+                    <a href="javascript:void(0)" class="menu-tigger btn-navbar rounded-circle px-2 ms-4 d-flex align-items-center justify-content-center btn-menu d-lg-none d-inline-block">
+                        <svg width="30" height="24" viewBox="0 0 30 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <line y1="12" x2="30" y2="12" stroke="white" stroke-width="3" />
+                            <path d="M5 22H30" stroke="white" stroke-width="3" />
+                            <path d="M10 2H30" stroke="white" stroke-width="3" />
+                        </svg>
+                    </a>
+                    <a href="#" class="btn btn-quote d-none d-lg-inline-block">
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M19.9582 8.01055C19.9051 7.9168 19.8051 7.85742 19.6957 7.85742H14.0863V7.0043C14.0863 6.96367 14.077 6.92305 14.0613 6.88867C14.0457 6.85117 14.0238 6.81992 13.9957 6.7918L12.1363 4.93242C12.1082 4.9043 12.077 4.88242 12.0395 4.8668C12.002 4.85117 11.9645 4.8418 11.9238 4.8418H6.28321C6.11446 4.8418 5.98009 4.97617 5.98009 5.14492V7.85742H0.301962C0.192587 7.85742 0.0925865 7.9168 0.0394615 8.01055C-0.0136635 8.1043 -0.0136635 8.22305 0.0425865 8.3168L0.995712 9.91055C1.05196 10.0012 1.14884 10.0574 1.25509 10.0574H1.98009L2.74884 11.498C2.80196 11.598 2.90509 11.6574 3.01759 11.6574H3.38321L4.11134 13.0887C4.16446 13.1918 4.26759 13.2543 4.38009 13.2543H5.98321V14.8512C5.98321 15.0199 6.11759 15.1543 6.28634 15.1543H13.7863C13.9551 15.1543 14.0895 15.0199 14.0895 14.8512V13.2543H15.6176C15.7301 13.2543 15.8363 13.1918 15.8863 13.0887L16.6176 11.6574H16.9801C17.0926 11.6574 17.1957 11.5949 17.2488 11.498L18.0207 10.0574H18.7457C18.852 10.0574 18.952 10.0012 19.0051 9.91055L19.9613 8.3168C20.0113 8.22305 20.0145 8.10742 19.9582 8.01055ZM12.227 5.8793L13.052 6.7043H12.227V5.8793ZM0.836337 8.46367H5.98009V9.45117H1.42696L0.836337 8.46367ZM2.66446 10.0605H5.98009V11.0543H3.19571L2.66446 10.0605ZM4.56134 12.6512L4.05821 11.6605H5.98009V12.6512H4.56134ZM13.4801 14.5543H6.58634V5.44805H11.6207V7.0043C11.6207 7.17305 11.7551 7.30742 11.9238 7.30742H13.4801V14.5543ZM15.4301 12.6512H14.0895V11.6605H15.9363L15.4301 12.6512ZM16.7957 11.0543H14.0863V10.0605H17.327L16.7957 11.0543ZM18.5676 9.4543H14.0863V8.4668H19.1613L18.5676 9.4543Z" fill="#012B43" />
+                            <path d="M12.3883 8.19531H7.68203C7.51328 8.19531 7.37891 8.32969 7.37891 8.49844C7.37891 8.66719 7.51328 8.80156 7.68203 8.80156H12.3883C12.557 8.80156 12.6914 8.66719 12.6914 8.49844C12.6914 8.33281 12.557 8.19531 12.3883 8.19531Z" fill="#012B43" />
+                            <path d="M12.3844 9.65039H7.67812C7.50937 9.65039 7.375 9.78477 7.375 9.95352C7.375 10.1223 7.50937 10.2566 7.67812 10.2566H12.3844C12.5531 10.2566 12.6875 10.1223 12.6875 9.95352C12.6875 9.78789 12.5531 9.65039 12.3844 9.65039Z" fill="#012B43" />
+                            <path d="M12.3844 11.1074H7.67812C7.50937 11.1074 7.375 11.2418 7.375 11.4105C7.375 11.5793 7.50937 11.7137 7.67812 11.7137H12.3844C12.5531 11.7137 12.6875 11.5793 12.6875 11.4105C12.6875 11.2418 12.5531 11.1074 12.3844 11.1074Z" fill="#012B43" />
+                            <path d="M11.7078 12.5625H8.35781C8.18906 12.5625 8.05469 12.6969 8.05469 12.8656C8.05469 13.0344 8.18906 13.1687 8.35781 13.1687H11.7109C11.8797 13.1687 12.0141 13.0344 12.0141 12.8656C12.0109 12.6969 11.8766 12.5625 11.7078 12.5625Z" fill="#012B43" />
+                            <path d="M9.99844 2.03203C10.1672 2.03203 10.3016 1.89766 10.3016 1.72891V0.603906C10.3016 0.435156 10.1672 0.300781 9.99844 0.300781C9.82969 0.300781 9.69531 0.435156 9.69531 0.603906V1.72891C9.69531 1.89766 9.82969 2.03203 9.99844 2.03203Z" fill="#012B43" />
+                            <path d="M5.60142 2.98814C5.65767 3.08501 5.76079 3.13813 5.86392 3.13813C5.91392 3.13813 5.96704 3.12564 6.01392 3.09751C6.15767 3.01313 6.20767 2.82876 6.12642 2.68501L5.56392 1.71001C5.47954 1.56626 5.29517 1.51626 5.15142 1.59751C5.00767 1.68189 4.95767 1.86626 5.03892 2.01001L5.60142 2.98814Z" fill="#012B43" />
+                            <path d="M1.7061 5.56676L2.6811 6.12926C2.72798 6.15739 2.7811 6.16989 2.8311 6.16989C2.93735 6.16989 3.03735 6.11676 3.0936 6.01989C3.17798 5.87614 3.12798 5.68864 2.9811 5.60739L2.0061 5.04489C1.85923 4.96051 1.67485 5.01051 1.5936 5.15739C1.51235 5.29801 1.56235 5.48239 1.7061 5.56676Z" fill="#012B43" />
+                            <path d="M2.6811 13.877L1.7061 14.4395C1.56235 14.5239 1.51235 14.7083 1.5936 14.852C1.64985 14.9489 1.75298 15.002 1.8561 15.002C1.9061 15.002 1.95923 14.9895 2.0061 14.9614L2.9811 14.3989C3.12485 14.3145 3.17485 14.1302 3.0936 13.9864C3.01235 13.8427 2.82798 13.7927 2.6811 13.877Z" fill="#012B43" />
+                            <path d="M6.01598 16.9043C5.8691 16.8199 5.68473 16.8699 5.60348 17.0168L5.04098 17.9918C4.9566 18.1355 5.0066 18.323 5.15348 18.4043C5.20035 18.4324 5.25348 18.4449 5.30348 18.4449C5.40973 18.4449 5.50973 18.3918 5.56598 18.2949L6.12848 17.3199C6.21285 17.173 6.16285 16.9855 6.01598 16.9043Z" fill="#012B43" />
+                            <path d="M9.99844 17.9688C9.82969 17.9688 9.69531 18.1031 9.69531 18.2719V19.3969C9.69531 19.5656 9.82969 19.7 9.99844 19.7C10.1672 19.7 10.3016 19.5656 10.3016 19.3969V18.2719C10.3016 18.1031 10.1672 17.9688 9.99844 17.9688Z" fill="#012B43" />
+                            <path d="M14.3999 17.0147C14.3155 16.8709 14.1311 16.8209 13.9874 16.9022C13.8436 16.9866 13.7936 17.1709 13.8749 17.3147L14.4374 18.2897C14.4936 18.3866 14.5967 18.4397 14.6999 18.4397C14.7499 18.4397 14.803 18.4272 14.8499 18.3991C14.9936 18.3147 15.0436 18.1303 14.9624 17.9866L14.3999 17.0147Z" fill="#012B43" />
+                            <path d="M18.2879 14.4355L17.3129 13.873C17.166 13.7886 16.9816 13.8386 16.9004 13.9855C16.816 14.1293 16.866 14.3168 17.0129 14.398L17.9879 14.9605C18.0347 14.9886 18.0879 15.0011 18.1379 15.0011C18.2441 15.0011 18.3441 14.948 18.4004 14.8511C18.4816 14.7043 18.4316 14.5199 18.2879 14.4355Z" fill="#012B43" />
+                            <path d="M17.1608 6.16704C17.2108 6.16704 17.2639 6.15454 17.3108 6.12642L18.2858 5.56392C18.4295 5.47954 18.4795 5.29517 18.3983 5.15142C18.3139 5.00767 18.1295 4.95767 17.9858 5.03892L17.0108 5.60142C16.867 5.68579 16.817 5.87017 16.8983 6.01392C16.9545 6.11392 17.0577 6.16704 17.1608 6.16704Z" fill="#012B43" />
+                            <path d="M13.9816 3.09645C14.0285 3.12457 14.0816 3.13707 14.1316 3.13707C14.2379 3.13707 14.3379 3.08395 14.3941 2.98707L14.9566 2.01207C15.041 1.86832 14.991 1.68082 14.8441 1.59957C14.6972 1.5152 14.5129 1.5652 14.4316 1.71207L13.8691 2.68707C13.7847 2.8277 13.8347 3.0152 13.9816 3.09645Z" fill="#012B43" />
+                        </svg>
+                        Get a quote
+                    </a>
+                </div>
+            </div>
+        </nav>
+        <!-- offCanvas-menu -->
+        <div class="offCanvas__info">
+            <div class="offCanvas__close-icon menu-close">
+                <button>
+                    <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0 0 24 24">
+                        <path d="M 4.7070312 3.2929688 L 3.2929688 4.7070312 L 10.585938 12 L 3.2929688 19.292969 L 4.7070312 20.707031 L 12 13.414062 L 19.292969 20.707031 L 20.707031 19.292969 L 13.414062 12 L 20.707031 4.7070312 L 19.292969 3.2929688 L 12 10.585938 L 4.7070312 3.2929688 z"></path>
+                    </svg>
+                </button>
+            </div>
+            <div class="offCanvas__logo mb-20">
+                <a href="index.html"><img src="assets/imgs/template/logo3.svg" alt="Logo" /></a>
+            </div>
+            <div class="offCanvas__side-info mb-30">
+                <ul class="navbar-nav navbar-nav-mobile">
+                    <li class="nav-item dropdown menu-item-has-children">
+                        <a class="nav-link fw-medium" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Home</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="index.html">Home page 1</a></li>
+                            <li><a class="dropdown-item" href="index-2.html">Home page 2</a></li>
+                            <li><a class="dropdown-item" href="index-3.html">Home page 3</a></li>
+                            <li><a class="dropdown-item" href="index-4.html">Home page 4</a></li>
+                            <li><a class="dropdown-item" href="index-5.html">Home page 5</a></li>
+                            <li><a class="dropdown-item" href="index-6.html">Home page 6</a></li>
+                            <li><a class="dropdown-item" href="index-7.html">Home page 7</a></li>
+                            <li><a class="dropdown-item" href="index-8.html">Home page 8</a></li>
+                            <li><a class="dropdown-item" href="index-9.html">Home page 9</a></li>
+                            <li><a class="dropdown-item" href="index-10.html">Home page 10</a></li>
+                            <li><a class="dropdown-item" href="index-11.html">Home page 11</a></li>
+                            <li><a class="dropdown-item" href="index-12.html">Home page 12</a></li>
+                            <li><a class="dropdown-item" href="index-13.html">Home page 13</a></li>
+                            <li><a class="dropdown-item" href="index-14.html">Home page 14</a></li>
+                            <li><a class="dropdown-item" href="index-15.html">Home page 15</a></li>
+                            <li><a class="dropdown-item" href="index-16.html">Home page 16</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown menu-item-has-children">
+                        <a class="nav-link fw-medium" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">About</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="about-us.html">About Us</a></li>
+                            <li><a class="dropdown-item" href="about-us-2.html">About Us 2</a></li>
+                            <li><a class="dropdown-item" href="about-us-3.html">About Us 3</a></li>
+                            <li><a class="dropdown-item" href="about-us-4.html">About Us 4</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown menu-item-has-children">
+                        <a class="nav-link fw-medium" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Services</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="services.html">Services 01</a></li>
+                            <li><a class="dropdown-item" href="services-2.html">Services 02</a></li>
+                            <li><a class="dropdown-item" href="services-3.html">Services 03</a></li>
+                            <li><a class="dropdown-item" href="services-4.html">Services 03</a></li>
+                            <li><a class="dropdown-item" href="service-detail.html">Service Details 01</a></li>
+                            <li><a class="dropdown-item" href="service-detail-2.html">Service Details 02</a></li>
+                            <li><a class="dropdown-item" href="service-detail-3.html">Service Details 03</a></li>
+                            <li><a class="dropdown-item" href="service-detail-4.html">Service Details 04</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown menu-item-has-children">
+                        <a class="nav-link fw-medium" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Projects</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="services.html">Project List</a></li>
+                            <li><a class="dropdown-item" href="services-2.html">Project Detail</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown menu-item-has-children">
+                        <a class="nav-link fw-medium" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">News</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="news-grid.html">News Grid</a></li>
+                            <li><a class="dropdown-item" href="news-grid-sidebar.html">News Grid Sidebar</a></li>
+                            <li><a class="dropdown-item" href="news-details.html">Blog Details</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown menu-item-has-children">
+                        <a class="nav-link fw-medium" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Pages</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="contact.html">Contact Us</a></li>
+                            <li><a class="dropdown-item" href="pricing.html">Pricing</a></li>
+                            <li><a class="dropdown-item" href="team.html">Team</a></li>
+                            <li><a class="dropdown-item" href="team-detail.html">Team Details</a></li>
+                            <li><a class="dropdown-item" href="faq.html">FAQs</a></li>
+                            <li><a class="dropdown-item" href="404.html">Error 404</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div class="side-gallery mb-4">
+                <div class="pt-1"></div>
+                <h4 class="mt-3 mb-3">Gallery</h4>
+                <div class="grid-items">
+                    <div class="zoom-img rounded-3 d-inline-flex overflow-hidden">
+                        <img class="g-col-4" src="assets/imgs/pages/offcanvas/gallery-1.png" alt="vatech" />
+                    </div>
+                    <div class="zoom-img rounded-3 d-inline-flex overflow-hidden">
+                        <img class="g-col-4" src="assets/imgs/pages/offcanvas/gallery-2.png" alt="vatech" />
+                    </div>
+                    <div class="zoom-img rounded-3 d-inline-flex overflow-hidden">
+                        <img class="g-col-4" src="assets/imgs/pages/offcanvas/gallery-3.png" alt="vatech" />
+                    </div>
+                    <div class="zoom-img rounded-3 d-inline-flex overflow-hidden">
+                        <img class="g-col-4" src="assets/imgs/pages/offcanvas/gallery-4.png" alt="vatech" />
+                    </div>
+                    <div class="zoom-img rounded-3 d-inline-flex overflow-hidden">
+                        <img class="g-col-4" src="assets/imgs/pages/offcanvas/gallery-5.png" alt="vatech" />
+                    </div>
+                    <div class="zoom-img rounded-3 d-inline-flex overflow-hidden">
+                        <img class="g-col-4" src="assets/imgs/pages/offcanvas/gallery-6.png" alt="vatech" />
+                    </div>
+                    <div class="zoom-img rounded-3 d-inline-flex overflow-hidden">
+                        <img class="g-col-4" src="assets/imgs/pages/offcanvas/gallery-7.png" alt="vatech" />
+                    </div>
+                    <div class="zoom-img rounded-3 d-inline-flex overflow-hidden">
+                        <img class="g-col-4" src="assets/imgs/pages/offcanvas/gallery-8.png" alt="vatech" />
+                    </div>
+                    <div class="zoom-img rounded-3 d-inline-flex overflow-hidden">
+                        <img class="g-col-4" src="assets/imgs/pages/offcanvas/gallery-9.png" alt="vatech" />
+                    </div>
+                </div>
+            </div>
+            <div class="box-contactus mb-30">
+                <h5 class="title-contactus neutral-1000 mb-3">Contact Us</h5>
+                <div class="contact-info">
+                    <p class="address-2 text-md-medium neutral-1000"><strong>Address: </strong>1285 Crescent Wellington Heights, Louisville, KY 40204</p>
+                    <p class="hour-work-2 text-md-medium neutral-1000"><strong>Hours: </strong> 8:00 - 17:00, Mon - Sat</p>
+                    <p class="hour-work-2 text-md-medium neutral-1000"><strong>Phone: </strong> 01 256 986 3</p>
+                </div>
+            </div>
+        </div>
+        <div class="offCanvas__overly"></div>
+
+    </header>
+
+    <main>
+        <!-- prettier-ignore -->
+        <!--Home 9 Section 1-->
+        <section class="position-relative overflow-hidden box-banner-9">
+            <div class="banner-7" data-aos="fade-up">
+                <div class="box-swiper">
+                    <div class="swiper-button-prev swiper-button-inline swiper-button-prev-style-1 swiper-button-prev-style-5">
+                        <svg width="30" height="18" viewBox="0 0 30 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M10 1.31134e-06C10 0.954001 9.08375 2.37857 8.15625 3.57429C6.96375 5.11714 5.53875 6.46329 3.905 7.49057C2.68 8.26071 1.195 9 -1.18021e-06 9M-1.18021e-06 9C1.195 9 2.68125 9.73929 3.905 10.5094C5.53875 11.538 6.96375 12.8841 8.15625 14.4244C9.08375 15.6214 10 17.0486 10 18M-1.18021e-06 9L30 9" stroke="" stroke-width="2" />
+                        </svg>
+                    </div>
+                    <div class="swiper-button-next swiper-button-inline swiper-button-next-style-1 swiper-button-next-style-5">
+                        <svg width="30" height="16" viewBox="0 0 30 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M20 16C20 15.152 20.9162 13.8857 21.8438 12.8229C23.0363 11.4514 24.4613 10.2549 26.095 9.34171C27.32 8.65714 28.805 8 30 8M30 8C28.805 8 27.3188 7.34286 26.095 6.65829C24.4613 5.744 23.0363 4.54743 21.8438 3.17828C20.9163 2.11428 20 0.845713 20 -1.15237e-06M30 8L3.49691e-07 8" stroke="" stroke-width="2" />
+                        </svg>
+                    </div>
+                    <div class="swiper-container slider-group-1">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="slide-banner-home-9">
+                                    <div class="container" data-aos="fade-up">
+                                        <div class="text-center">
+                                            <span class="text-border-square mb-3 d-inline-block">Guaranteed satisfaction</span>
+                                            <h1 class="display-2xl color-white text-uppercase mb-4">Creating Business With Amazing Consulting</h1>
+                                            <div class="box-buttons">
+                                                <a href="#" class="btn btn-primary-500 me-3 mb-3">
+                                                    Explore Services
+                                                    <svg width="19" height="15" viewBox="0 0 19 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                        <path d="M12.6667 14.5C12.6667 13.758 13.247 12.65 13.8344 11.72C14.5896 10.52 15.4921 9.473 16.5268 8.674C17.3027 8.075 18.2432 7.5 19 7.5M19 7.5C18.2432 7.5 17.3019 6.925 16.5268 6.326C15.4921 5.526 14.5896 4.479 13.8344 3.281C13.247 2.35 12.6667 1.24 12.6667 0.500001M19 7.5L-1.70857e-07 7.5" stroke="" stroke-width="2" />
+                                                    </svg>
+                                                </a>
+                                                <a href="#" class="btn btn-white-border mb-3">
+                                                    Contact Us
+                                                    <svg width="19" height="15" viewBox="0 0 19 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                        <path d="M12.6667 14.5C12.6667 13.758 13.247 12.65 13.8344 11.72C14.5896 10.52 15.4921 9.473 16.5268 8.674C17.3027 8.075 18.2432 7.5 19 7.5M19 7.5C18.2432 7.5 17.3019 6.925 16.5268 6.326C15.4921 5.526 14.5896 4.479 13.8344 3.281C13.247 2.35 12.6667 1.24 12.6667 0.500001M19 7.5L-1.70857e-07 7.5" stroke="" stroke-width="2" />
+                                                    </svg>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="slide-banner-home-9">
+                                    <div class="container" data-aos="fade-up">
+                                        <div class="text-center">
+                                            <span class="text-border-square mb-3 d-inline-block">Guaranteed satisfaction</span>
+                                            <h1 class="display-2xl color-white text-uppercase mb-4">Creating Business With Amazing Consulting</h1>
+                                            <div class="box-buttons">
+                                                <a href="#" class="btn btn-primary-500 me-3 mb-3">
+                                                    Explore Services
+                                                    <svg width="19" height="15" viewBox="0 0 19 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                        <path d="M12.6667 14.5C12.6667 13.758 13.247 12.65 13.8344 11.72C14.5896 10.52 15.4921 9.473 16.5268 8.674C17.3027 8.075 18.2432 7.5 19 7.5M19 7.5C18.2432 7.5 17.3019 6.925 16.5268 6.326C15.4921 5.526 14.5896 4.479 13.8344 3.281C13.247 2.35 12.6667 1.24 12.6667 0.500001M19 7.5L-1.70857e-07 7.5" stroke="" stroke-width="2" />
+                                                    </svg>
+                                                </a>
+                                                <a href="#" class="btn btn-white-border mb-3">
+                                                    Contact Us
+                                                    <svg width="19" height="15" viewBox="0 0 19 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                        <path d="M12.6667 14.5C12.6667 13.758 13.247 12.65 13.8344 11.72C14.5896 10.52 15.4921 9.473 16.5268 8.674C17.3027 8.075 18.2432 7.5 19 7.5M19 7.5C18.2432 7.5 17.3019 6.925 16.5268 6.326C15.4921 5.526 14.5896 4.479 13.8344 3.281C13.247 2.35 12.6667 1.24 12.6667 0.500001M19 7.5L-1.70857e-07 7.5" stroke="" stroke-width="2" />
+                                                    </svg>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--Home 9 Section 2 -->
+        <section class="position-relative overflow-hidden box-features-2">
+            <div class="container" data-aos="fade-up">
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 mb-4">
+                        <div class="card-white-square">
+                            <div class="card-info">
+                                <h6 class="heading-24-fitree dark-950">Business Managements</h6>
+                                <p class="paragraph-18-fitree secondery-500">Muchas variaciones de los pasajes de Lorem se le agregó</p>
+                            </div>
+                            <div class="card-icon">
+                                <div class="card-icon-left">
+                                    <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M43.75 27.2656V25.7031C44.1812 25.7031 44.5313 25.3534 44.5313 24.9219V20.2344C44.5313 19.8029 44.1812 19.4531 43.75 19.4531H39.5313L39.3799 18.8663C39.0344 17.5241 38.4979 16.2384 37.786 15.0491L37.4735 14.5264L40.4688 11.5259C40.7703 11.2238 40.7703 10.7343 40.4688 10.4321L37.1509 7.10938C36.8445 6.81732 36.3632 6.81732 36.0568 7.10938L33.056 10.1102L32.5336 9.79767C31.3425 9.08539 30.0555 8.54889 28.7116 8.20313L28.125 8.05054V3.82813C28.125 3.39661 27.7753 3.04688 27.3438 3.04688H22.6563C22.2247 3.04688 21.875 3.39661 21.875 3.82813V8.04688L21.2882 8.19855C19.946 8.5437 18.6603 9.0802 17.4704 9.79126L16.9476 10.1041L13.9478 7.10938C13.6411 6.81488 13.1567 6.81488 12.85 7.10938L9.53125 10.4272C9.38538 10.5728 9.30328 10.7706 9.30328 10.9766C9.30328 11.1829 9.38538 11.3803 9.53125 11.5259L12.532 14.5264L12.2195 15.0491C11.5079 16.2384 10.9711 17.5241 10.6259 18.8663L10.4727 19.4531H6.25C5.81848 19.4531 5.46875 19.8029 5.46875 20.2344V24.9219C5.46875 25.3534 5.81848 25.7031 6.25 25.7031V27.2656C4.95575 27.2656 3.90625 26.2161 3.90625 24.9219V20.2344C3.90625 18.9401 4.95575 17.8906 6.25 17.8906H9.27277C9.59503 16.8103 10.0308 15.7672 10.5728 14.7791L8.42438 12.6306C7.98493 12.1921 7.73804 11.597 7.73804 10.9766C7.73804 10.3561 7.98493 9.76105 8.42438 9.32282L11.7447 6.0025C12.6697 5.11719 14.1281 5.11719 15.0531 6.0025L17.2009 8.15002C18.1891 7.60834 19.2325 7.17346 20.3125 6.8515V3.82813C20.3125 2.53387 21.362 1.48438 22.6563 1.48438H27.3438C28.638 1.48438 29.6875 2.53387 29.6875 3.82813V6.8515C30.7678 7.17346 31.8106 7.60925 32.7991 8.15094L34.9475 6.0025C35.8728 5.11719 37.3309 5.11719 38.2562 6.0025L41.5759 9.3219C42.0151 9.76044 42.2617 10.3549 42.2617 10.9756C42.2617 11.5964 42.0151 12.1915 41.5759 12.6297L39.4275 14.7781C39.9692 15.7669 40.4047 16.8103 40.7272 17.8906H43.75C45.0443 17.8906 46.0938 18.9401 46.0938 20.2344V24.9219C46.0938 26.2161 45.0443 27.2656 43.75 27.2656Z" fill="" />
+                                        <path d="M35.9375 22.5781H34.375C34.375 17.4005 30.1776 13.2031 25 13.2031C19.8224 13.2031 15.625 17.4005 15.625 22.5781H14.0625C14.0625 16.5375 18.9594 11.6406 25 11.6406C31.0403 11.6406 35.9375 16.5375 35.9375 22.5781Z" fill="" />
+                                        <path d="M25 28.8281C22.4112 28.8281 20.3125 26.7291 20.3125 24.1406C20.3125 21.5518 22.4112 19.4531 25 19.4531C27.5891 19.4531 29.6875 21.5518 29.6875 24.1406C29.6848 26.7285 27.5879 28.8254 25 28.8281ZM25 21.0156C23.2742 21.0156 21.875 22.4149 21.875 24.1406C21.875 25.8664 23.2742 27.2656 25 27.2656C26.7258 27.2656 28.125 25.8664 28.125 24.1406C28.125 22.4149 26.7258 21.0156 25 21.0156Z" fill="" />
+                                        <path d="M38.2813 31.9531C35.6924 31.9531 33.5938 29.8541 33.5938 27.2656C33.5938 24.6768 35.6924 22.5781 38.2813 22.5781C40.8701 22.5781 42.9688 24.6768 42.9688 27.2656C42.966 29.8535 40.8691 31.9504 38.2813 31.9531ZM38.2813 24.1406C36.5555 24.1406 35.1563 25.5399 35.1563 27.2656C35.1563 28.9914 36.5555 30.3906 38.2813 30.3906C40.007 30.3906 41.4063 28.9914 41.4063 27.2656C41.4063 25.5399 40.007 24.1406 38.2813 24.1406Z" fill="" />
+                                        <path d="M11.7188 31.9531C9.12994 31.9531 7.03125 29.8541 7.03125 27.2656C7.03125 24.6768 9.12994 22.5781 11.7188 22.5781C14.3079 22.5781 16.4063 24.6768 16.4063 27.2656C16.4035 29.8535 14.3066 31.9504 11.7188 31.9531ZM11.7188 24.1406C9.99298 24.1406 8.59375 25.5399 8.59375 27.2656C8.59375 28.9914 9.99298 30.3906 11.7188 30.3906C13.4445 30.3906 14.8438 28.9914 14.8438 27.2656C14.8438 25.5399 13.4445 24.1406 11.7188 24.1406Z" fill="" />
+                                        <path d="M45.3638 33.9576C44.1995 33.1574 42.8192 32.7305 41.4063 32.7344H35.1563C34.7763 32.7378 34.397 32.7723 34.0225 32.8373C33.5226 32.0554 32.8723 31.381 32.1094 30.8521C31.9949 30.7657 31.8747 30.6873 31.7493 30.618C30.6564 29.9561 29.4025 29.6076 28.125 29.6094H21.875C19.4858 29.6009 17.2595 30.8201 15.9796 32.8373C15.6042 32.7723 15.2243 32.7378 14.8438 32.7344H8.59375C7.18201 32.7305 5.802 33.1568 4.63837 33.956C2.71515 35.2646 1.56372 37.4396 1.5625 39.7657V42.8907C1.56525 45.0238 2.8064 46.9611 4.74396 47.8547C5.45929 48.1916 6.24085 48.364 7.03125 48.3594H14.8438V46.7969H7.8125V38.2032H6.25V46.7185C5.95581 46.6596 5.67017 46.5644 5.39917 46.4359C4.0152 45.7978 3.12805 44.4144 3.125 42.8907V39.7657C3.12683 37.9554 4.02374 36.2632 5.52033 35.2451C6.42456 34.6244 7.49664 34.2939 8.59375 34.2969H14.8438C14.9814 34.2969 15.1141 34.3116 15.2484 34.3207C14.9841 35.066 14.8471 35.8503 14.8438 36.6407V44.4532C14.8465 46.6095 16.5939 48.3567 18.75 48.3594H21.0938V35.8594H19.5313V46.7969H18.75C17.4558 46.7969 16.4063 45.7474 16.4063 44.4532V36.6407C16.4063 33.62 18.855 31.1719 21.875 31.1719H28.125C29.1303 31.1725 30.1154 31.4509 30.9726 31.9758C31.0519 32.0191 31.1282 32.0679 31.2006 32.1216C31.9327 32.623 32.5336 33.2929 32.9523 34.0748C33.3731 34.8645 33.5938 35.7456 33.5938 36.6407V44.4532C33.5938 45.7474 32.5443 46.7969 31.25 46.7969H30.4688V35.8594H28.9063V48.3594H31.25C33.4064 48.3567 35.1535 46.6095 35.1563 44.4532V36.6407C35.1526 35.8503 35.0162 35.0663 34.7522 34.3207C34.8868 34.3116 35.0195 34.2969 35.1563 34.2969H41.4063C42.504 34.2939 43.577 34.6253 44.4818 35.2466C45.9772 36.2653 46.8729 37.9563 46.875 39.7657V42.8907C46.8723 44.4199 45.9784 45.8072 44.5877 46.442C44.3207 46.5683 44.0393 46.6611 43.75 46.7185V38.2032H42.1875V46.7969H35.1563V48.3594H42.9688C43.7546 48.3643 44.5316 48.194 45.2429 47.8608C47.1869 46.97 48.4345 45.029 48.4375 42.8907V39.7657C48.4363 37.4405 47.2858 35.2665 45.3638 33.9576Z" fill="" />
+                                        <path d="M21.875 46.7969H28.125V48.3594H21.875V46.7969Z" fill="" />
+                                    </svg>
+                                </div>
+                                <div class="card-icon-right">
+                                    <a href="#">
+                                        <svg width="19" height="14" viewBox="0 0 19 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M12.6667 14C12.6667 13.258 13.247 12.15 13.8344 11.22C14.5896 10.02 15.4921 8.973 16.5268 8.174C17.3027 7.575 18.2432 7 19 7M19 7C18.2432 7 17.3019 6.425 16.5268 5.826C15.4921 5.026 14.5896 3.979 13.8344 2.781C13.247 1.85 12.6667 0.740001 12.6667 5.57626e-07M19 7L-1.70857e-07 7" stroke="" stroke-width="2" />
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mb-4">
+                        <div class="card-white-square">
+                            <div class="card-info">
+                                <h6 class="heading-24-fitree dark-950">Financial Analytics</h6>
+                                <p class="paragraph-18-fitree secondery-500">Muchas variaciones de los pasajes de Lorem se le agregó</p>
+                            </div>
+                            <div class="card-icon">
+                                <div class="card-icon-left">
+                                    <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M36.2173 5.44375C35.8023 5.09367 35.2575 4.94523 34.7223 5.03664L34.3652 5.09766V4.34352C34.3652 3.32977 33.5404 2.50508 32.5267 2.50508H31.8602V1.83852C31.8602 0.824766 31.0354 0 30.0216 0H4.97125C3.9575 0 3.13281 0.824766 3.13281 1.83844V33.1515C3.13281 34.1652 3.95758 34.9899 4.97125 34.9899H5.63781V35.6565C5.63781 36.6702 6.46258 37.4949 7.47625 37.4949H8.14281V38.1615C8.14281 39.1752 8.96758 39.9999 9.98125 39.9999H35.0317C36.0455 39.9999 36.8702 39.1752 36.8702 38.1615V6.84891C36.8702 6.30602 36.6323 5.79383 36.2173 5.44375ZM7.47625 36.3231C7.10867 36.3231 6.80969 36.0241 6.80969 35.6566V4.34352C6.80969 3.97594 7.10875 3.67695 7.47625 3.67695H27.5166C27.8402 3.67695 28.1025 3.41461 28.1025 3.09102C28.1025 2.76742 27.8402 2.50508 27.5166 2.50508H7.47625C6.4625 2.50508 5.63781 3.32984 5.63781 4.34352V33.818H4.97125C4.60367 33.818 4.30469 33.519 4.30469 33.1515V1.83844C4.30469 1.47086 4.60375 1.17188 4.97125 1.17188H30.0217C30.3893 1.17188 30.6883 1.47094 30.6883 1.83844V2.505H30.0217C29.6981 2.505 29.4358 2.76734 29.4358 3.09094C29.4358 3.41453 29.6981 3.67687 30.0217 3.67687H32.5267C32.8943 3.67687 33.1933 3.97594 33.1933 4.34344V5.29766L10.5547 9.16281C9.21992 9.19102 8.14281 10.2855 8.14281 11.627V36.323H7.47625V36.3231ZM31.1892 6.82867L15.687 13.212C15.3991 13.3305 15.0718 13.2363 14.8908 12.983L13.0649 10.4269C12.9509 10.2673 12.8227 10.1208 12.6825 9.98836L31.1892 6.82867ZM35.6983 38.1616C35.6983 38.5297 35.3998 38.8281 35.0317 38.8281H9.98133C9.6132 38.8281 9.31476 38.5297 9.31476 38.1616V11.627C9.31476 10.9171 9.88976 10.3391 10.5985 10.3341C10.6043 10.3342 10.6102 10.3342 10.6162 10.3341C11.2085 10.3369 11.7669 10.6257 12.1113 11.1079L13.9372 13.6641C14.4362 14.3628 15.3394 14.6224 16.1332 14.2955C16.1332 14.2955 32.5626 7.53195 35.1269 6.47703C35.3927 6.36766 35.6959 6.55547 35.6984 6.84289V6.84891V38.1616H35.6983Z" fill="" />
+                                        <path d="M17.4945 26.8483C20.5802 26.8483 23.0905 24.338 23.0905 21.2523C23.0905 18.1666 20.5802 15.6562 17.4945 15.6562C16.3853 15.6562 15.3131 15.9802 14.3938 16.5933C14.1245 16.7728 14.0518 17.1366 14.2313 17.4058C14.4108 17.6751 14.7746 17.7478 15.0438 17.5682C15.77 17.0841 16.6175 16.828 17.4945 16.828C19.934 16.828 21.9187 18.8127 21.9187 21.2522C21.9187 22.2611 21.5785 23.1916 21.0077 23.9368L17.9088 20.8379C17.7944 20.7234 17.6444 20.6663 17.4943 20.6663H13.1096C13.1824 20.1201 13.356 19.5904 13.6227 19.1096C13.7797 18.8266 13.6776 18.4699 13.3946 18.313C13.1117 18.156 12.755 18.2581 12.598 18.5411C12.1404 19.366 11.8984 20.3035 11.8984 21.2522C11.8985 24.338 14.4088 26.8483 17.4945 26.8483ZM13.9813 23.9369C13.523 23.3385 13.2144 22.6204 13.1103 21.8382H16.0798L13.9813 23.9369ZM20.1791 24.7655C19.434 25.3362 18.5034 25.6764 17.4945 25.6764C16.4855 25.6764 15.555 25.3363 14.8098 24.7655L17.4945 22.0809L20.1791 24.7655Z" fill="" />
+                                        <path d="M26.8931 19.3331H30.6507C31.6645 19.3331 32.4891 18.5084 32.4891 17.4947C32.4891 16.481 31.6644 15.6562 30.6507 15.6562H26.8931C25.8794 15.6562 25.0547 16.481 25.0547 17.4947C25.0547 18.5084 25.8795 19.3331 26.8931 19.3331ZM26.8931 16.828H30.6507C31.0183 16.828 31.3173 17.1271 31.3173 17.4946C31.3173 17.8621 31.0182 18.1612 30.6507 18.1612H26.8931C26.5255 18.1612 26.2266 17.8621 26.2266 17.4946C26.2266 17.1271 26.5256 16.828 26.8931 16.828Z" fill="" />
+                                        <path d="M25.6406 21.8379H31.9032C32.2268 21.8379 32.4891 21.5755 32.4891 21.252C32.4891 20.9284 32.2268 20.666 31.9032 20.666H25.6406C25.317 20.666 25.0547 20.9284 25.0547 21.252C25.0547 21.5755 25.317 21.8379 25.6406 21.8379Z" fill="" />
+                                        <path d="M25.6406 24.3438H31.9032C32.2268 24.3438 32.4891 24.0814 32.4891 23.7578C32.4891 23.4342 32.2268 23.1719 31.9032 23.1719H25.6406C25.317 23.1719 25.0547 23.4342 25.0547 23.7578C25.0547 24.0814 25.317 24.3438 25.6406 24.3438Z" fill="" />
+                                        <path d="M25.6406 26.8477H31.9032C32.2268 26.8477 32.4891 26.5854 32.4891 26.2617C32.4891 25.9381 32.2268 25.6758 31.9032 25.6758H25.6406C25.317 25.6758 25.0547 25.9381 25.0547 26.2617C25.0547 26.5854 25.317 26.8477 25.6406 26.8477Z" fill="" />
+                                        <path d="M31.9027 28.8086H18.125C17.8014 28.8086 17.5391 29.0709 17.5391 29.3945C17.5391 29.7181 17.8014 29.9805 18.125 29.9805H31.9027C32.2263 29.9805 32.4887 29.7181 32.4887 29.3945C32.4887 29.0709 32.2263 28.8086 31.9027 28.8086Z" fill="" />
+                                        <path d="M31.9027 31.3125H18.125C17.8014 31.3125 17.5391 31.5748 17.5391 31.8984C17.5391 32.222 17.8014 32.4844 18.125 32.4844H31.9027C32.2263 32.4844 32.4887 32.222 32.4887 31.8984C32.4887 31.5748 32.2263 31.3125 31.9027 31.3125Z" fill="" />
+                                        <path d="M31.9011 33.8184H13.1133C12.7897 33.8184 12.5273 34.0806 12.5273 34.4043C12.5273 34.7279 12.7897 34.9902 13.1133 34.9902H31.9011C32.2247 34.9902 32.487 34.7279 32.487 34.4043C32.487 34.0807 32.2247 33.8184 31.9011 33.8184Z" fill="" />
+                                        <path d="M12.5273 30.647C12.5273 31.6608 13.3521 32.4855 14.3658 32.4855C15.3795 32.4855 16.2042 31.6607 16.2042 30.647C16.2042 29.6334 15.3795 28.8086 14.3658 28.8086C13.3521 28.8086 12.5273 29.6334 12.5273 30.647ZM15.0323 30.647C15.0323 31.0145 14.7333 31.3136 14.3658 31.3136C13.9983 31.3136 13.6992 31.0145 13.6992 30.647C13.6992 30.2795 13.9983 29.9805 14.3658 29.9805C14.7333 29.9805 15.0323 30.2795 15.0323 30.647Z" fill="" />
+                                    </svg>
+                                </div>
+                                <div class="card-icon-right">
+                                    <a href="#">
+                                        <svg width="19" height="14" viewBox="0 0 19 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M12.6667 14C12.6667 13.258 13.247 12.15 13.8344 11.22C14.5896 10.02 15.4921 8.973 16.5268 8.174C17.3027 7.575 18.2432 7 19 7M19 7C18.2432 7 17.3019 6.425 16.5268 5.826C15.4921 5.026 14.5896 3.979 13.8344 2.781C13.247 1.85 12.6667 0.740001 12.6667 5.57626e-07M19 7L-1.70857e-07 7" stroke="" stroke-width="2" />
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mb-4">
+                        <div class="card-white-square">
+                            <div class="card-info">
+                                <h6 class="heading-24-fitree dark-950">Tax Advisory</h6>
+                                <p class="paragraph-18-fitree secondery-500">Muchas variaciones de los pasajes de Lorem se le agregó</p>
+                            </div>
+                            <div class="card-icon">
+                                <div class="card-icon-left">
+                                    <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <g clip-path="url(#clip0_4249_4701)">
+                                            <path d="M46.2631 8.23555H42.9298C42.7086 8.23555 42.4969 8.32367 42.3405 8.47969L39.5966 11.224L37.9295 9.55734V0.735474C37.9295 0.275421 37.5565 -0.0976562 37.0964 -0.0976562H33.7631C33.5419 -0.0976562 33.3302 -0.00991816 33.1738 0.146484L30.4298 2.89078L27.6855 0.146484C27.5291 -0.00991816 27.3174 -0.0976562 27.0966 -0.0976562H23.7629C23.542 -0.0976562 23.3299 -0.00991816 23.1739 0.146484L20.4296 2.89078L17.6857 0.146484C17.5293 -0.00991816 17.3172 -0.0976562 17.0963 -0.0976562H13.763C13.5422 -0.0976562 13.3301 -0.00991816 13.1737 0.146484L10.4298 2.89078L7.68547 0.146484C7.52945 -0.00991816 7.31735 -0.0976562 7.09648 -0.0976562H3.76282C3.30276 -0.0976562 2.92969 0.275421 2.92969 0.735474V40.7356C2.92969 41.1961 3.30276 41.5691 3.76282 41.5691H7.09648C7.31735 41.5688 7.52907 41.481 7.68547 41.325L10.4298 38.5807L12.0964 40.2473V49.0692C12.0964 49.5293 12.4695 49.9023 12.9295 49.9023H16.2628C16.4841 49.9023 16.6958 49.8146 16.8522 49.6582L19.5961 46.9139L22.3404 49.6582C22.4968 49.8146 22.7085 49.9023 22.9294 49.9023H26.263C26.4839 49.9023 26.6956 49.8146 26.852 49.6582L29.5963 46.9139L32.3402 49.6582C32.4966 49.8146 32.7084 49.9023 32.9296 49.9023H36.2629C36.4838 49.9023 36.6959 49.8146 36.8519 49.6582L39.5962 46.9139L42.3401 49.6582C42.4965 49.8146 42.7086 49.9023 42.9295 49.9023H46.2627C46.7232 49.9023 47.0959 49.5293 47.0959 49.0692V9.06906C47.0963 8.60863 46.7232 8.23555 46.2631 8.23555ZM9.84039 36.8134L6.75125 39.9025H4.59633V1.56899H6.75125L9.84039 4.65813C10.1658 4.98352 10.6934 4.98352 11.0188 4.65813L14.1079 1.56899H16.7511L19.8402 4.65813C20.1656 4.98352 20.6932 4.98352 21.0186 4.65813L24.1077 1.56899H26.7513L29.8405 4.65813C30.1659 4.98352 30.6934 4.98352 31.0188 4.65813L34.108 1.56899H36.2629V39.9025H34.108L31.0188 36.8134C30.6934 36.488 30.1659 36.488 29.8405 36.8134L26.7513 39.9025H24.1081L21.019 36.8134C20.6936 36.488 20.166 36.488 19.8406 36.8134L16.7515 39.9025H14.1079L11.0188 36.8134C10.6934 36.488 10.1658 36.488 9.84039 36.8134ZM45.4296 48.2357H43.2747L40.1856 45.1466C39.8602 44.8212 39.3326 44.8212 39.0072 45.1466L35.918 48.2357H33.2748L30.1857 45.1466C29.8603 44.8212 29.3327 44.8212 29.0073 45.1466L25.9182 48.2357H23.2746L20.1855 45.1466C19.8601 44.8212 19.3325 44.8212 19.0071 45.1466L15.918 48.2357H13.763V41.5691H17.0963C17.3172 41.5691 17.5293 41.481 17.6853 41.325L20.4296 38.5807L23.1739 41.325C23.3299 41.481 23.542 41.5691 23.7629 41.5691H27.0962C27.317 41.5691 27.5291 41.481 27.6855 41.325L30.4295 38.5807L33.1738 41.325C33.3298 41.481 33.5419 41.5691 33.7627 41.5691H37.096C37.5565 41.5691 37.9295 41.1961 37.9295 40.7356V11.9141L39.0068 12.9913C39.3322 13.3167 39.8598 13.3167 40.1852 12.9913L43.2747 9.90219H45.4296V48.2357Z" fill="" />
+                                            <path d="M13.7605 23.2351V15.735H16.2603V14.0684H9.59375V15.735H12.0939V23.2351H13.7605Z" fill="" />
+                                            <path d="M23.7603 23.2351V18.2352C23.7607 18.1058 23.7306 17.978 23.673 17.8625L22.0063 14.5292C21.8652 14.2465 21.576 14.0684 21.2605 14.0684H19.5935C19.2777 14.0684 18.9889 14.2465 18.8478 14.5292L17.1811 17.8625C17.1235 17.978 17.0934 18.1058 17.0938 18.2352V23.2351H18.7604V20.7349H22.0937V23.2351H23.7603ZM18.7604 19.0683V18.4316L20.1089 15.735H20.7456L22.0937 18.4316V19.0683H18.7604Z" fill="" />
+                                            <path d="M31.2603 15.735V14.0684H29.5937C29.2641 14.0684 28.9658 14.2621 28.8319 14.5635L27.927 16.6002L27.0222 14.5635C26.8883 14.2625 26.5896 14.0684 26.2604 14.0684H24.5938V15.735H25.7187L27.0153 18.6517L25.7187 21.5684H24.5938V23.2351H26.2604C26.5896 23.2351 26.8883 23.0413 27.0222 22.7403L27.927 20.7036L28.8319 22.7403C28.9658 23.0413 29.2645 23.2351 29.5937 23.2351H31.2603V21.5684H30.1354L28.8387 18.6517L30.1354 15.735H31.2603Z" fill="" />
+                                            <path d="M7.92969 24.9023H32.9297V26.569H7.92969V24.9023Z" fill="" />
+                                            <path d="M7.92969 10.7344H32.9297V12.401H7.92969V10.7344Z" fill="" />
+                                        </g>
+                                        <defs>
+                                            <clipPath id="clip0_4249_4701">
+                                                <rect width="50" height="50" fill="" />
+                                            </clipPath>
+                                        </defs>
+                                    </svg>
+                                </div>
+                                <div class="card-icon-right">
+                                    <a href="#">
+                                        <svg width="19" height="14" viewBox="0 0 19 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M12.6667 14C12.6667 13.258 13.247 12.15 13.8344 11.22C14.5896 10.02 15.4921 8.973 16.5268 8.174C17.3027 7.575 18.2432 7 19 7M19 7C18.2432 7 17.3019 6.425 16.5268 5.826C15.4921 5.026 14.5896 3.979 13.8344 2.781C13.247 1.85 12.6667 0.740001 12.6667 5.57626e-07M19 7L-1.70857e-07 7" stroke="" stroke-width="2" />
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--Home 9 Section 3 -->
+        <section class="position-relative overflow-hidden box-about-us-2">
+            <div class="container" data-aos="fade-up">
+                <div class="row align-items-center">
+                    <div class="col-lg-6 mb-4 text-center text-lg-end">
+                        <div class="box-images-about-9">
+                            <div class="image-about-1">
+                                <img src="assets/imgs/pages/home9/about.png" alt="Vatech" />
+                                <a href="https://www.youtube.com/watch?v=TfU0qjuZkJ4" class="btn btn-play-2 popup-video">
+                                    <img src="assets/imgs/pages/home9/play.png" alt="Vatech" />
+                                </a>
+                            </div>
+                            <div class="image-about-2">
+                                <img src="assets/imgs/pages/home9/about2.png" alt="Vatech" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 mb-4">
+                        <p class="paragraph-base-fitree-medium lable-border text-uppercase mb-4">About us</p>
+                        <h2 class="heading-48-fitree secondery-500 mb-4">World Class Best Consult Firm Agency</h2>
+                        <p class="paragraph-18-fitree mb-4">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatu Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut al</p>
+                        <ul class="d-flex align-items-center flex-wrap list-disc mb-4">
+                            <li class="heading-24-fitree-bold">Inventory management</li>
+                            <li class="heading-24-fitree-bold">Experienced Team</li>
+                        </ul>
+                        <div class="box-list-ticked">
+                            <ul class="list-tick">
+                                <li class="paragraph-20-fitree-medium mb-3">
+                                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M9.99995 0C4.48601 0 0 4.48591 0 9.99995C0 15.514 4.48601 20 9.99995 20C15.5139 20 19.9999 15.514 19.9999 9.99995C19.9999 4.48591 15.514 0 9.99995 0ZM15.7421 8.31087L9.45963 14.5933C9.1925 14.8605 8.83741 15.0075 8.45967 15.0075C8.08193 15.0075 7.72684 14.8605 7.45971 14.5933L4.2578 11.3914C3.99067 11.1243 3.84354 10.7692 3.84354 10.3915C3.84354 10.0136 3.99067 9.65852 4.2578 9.39139C4.52483 9.12426 4.87992 8.97713 5.25776 8.97713C5.6355 8.97713 5.9907 9.12426 6.25773 9.3915L8.45957 11.5932L13.742 6.31084C14.0091 6.04371 14.3642 5.89669 14.7419 5.89669C15.1197 5.89669 15.4748 6.04371 15.7419 6.31084C16.2935 6.86242 16.2935 7.7595 15.7421 8.31087Z" fill="#0055FF" />
+                                    </svg>
+                                    Unlimited Consultation
+                                </li>
+                                <li class="paragraph-20-fitree-medium mb-3">
+                                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M9.99995 0C4.48601 0 0 4.48591 0 9.99995C0 15.514 4.48601 20 9.99995 20C15.5139 20 19.9999 15.514 19.9999 9.99995C19.9999 4.48591 15.514 0 9.99995 0ZM15.7421 8.31087L9.45963 14.5933C9.1925 14.8605 8.83741 15.0075 8.45967 15.0075C8.08193 15.0075 7.72684 14.8605 7.45971 14.5933L4.2578 11.3914C3.99067 11.1243 3.84354 10.7692 3.84354 10.3915C3.84354 10.0136 3.99067 9.65852 4.2578 9.39139C4.52483 9.12426 4.87992 8.97713 5.25776 8.97713C5.6355 8.97713 5.9907 9.12426 6.25773 9.3915L8.45957 11.5932L13.742 6.31084C14.0091 6.04371 14.3642 5.89669 14.7419 5.89669C15.1197 5.89669 15.4748 6.04371 15.7419 6.31084C16.2935 6.86242 16.2935 7.7595 15.7421 8.31087Z" fill="#0055FF" />
+                                    </svg>
+                                    100% Moneyback Guarantee
+                                </li>
+                                <li class="paragraph-20-fitree-medium mb-3">
+                                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M9.99995 0C4.48601 0 0 4.48591 0 9.99995C0 15.514 4.48601 20 9.99995 20C15.5139 20 19.9999 15.514 19.9999 9.99995C19.9999 4.48591 15.514 0 9.99995 0ZM15.7421 8.31087L9.45963 14.5933C9.1925 14.8605 8.83741 15.0075 8.45967 15.0075C8.08193 15.0075 7.72684 14.8605 7.45971 14.5933L4.2578 11.3914C3.99067 11.1243 3.84354 10.7692 3.84354 10.3915C3.84354 10.0136 3.99067 9.65852 4.2578 9.39139C4.52483 9.12426 4.87992 8.97713 5.25776 8.97713C5.6355 8.97713 5.9907 9.12426 6.25773 9.3915L8.45957 11.5932L13.742 6.31084C14.0091 6.04371 14.3642 5.89669 14.7419 5.89669C15.1197 5.89669 15.4748 6.04371 15.7419 6.31084C16.2935 6.86242 16.2935 7.7595 15.7421 8.31087Z" fill="#0055FF" />
+                                    </svg>
+                                    Free demo Consultation
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="box-call-help mt-5">
+                            <a href="#" class="btn btn-primary-500 me-5">
+                                Read More
+                                <svg width="19" height="15" viewBox="0 0 19 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M12.6667 14.5C12.6667 13.758 13.247 12.65 13.8344 11.72C14.5896 10.52 15.4921 9.473 16.5268 8.674C17.3027 8.075 18.2432 7.5 19 7.5M19 7.5C18.2432 7.5 17.3019 6.925 16.5268 6.326C15.4921 5.526 14.5896 4.479 13.8344 3.281C13.247 2.35 12.6667 1.24 12.6667 0.500001M19 7.5L-1.70857e-07 7.5" stroke="white" stroke-width="2" />
+                                </svg>
+                            </a>
+                            <div class="box-sign text-center">
+                                <img src="assets/imgs/pages/home9/sign.png" alt="Vatech" />
+                                <p class="paragraph-20-fitree-medium">Ceo & Founder</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--Home 9 Section 4 -->
+        <section class="position-relative overflow-hidden box-our-services-9">
+            <div class="container" data-aos="fade-up">
+                <div class="row position-relative align-items-end">
+                    <div class="col-lg-8 mb-4 text-center text-lg-start">
+                        <h6 class="text-border-square mb-20">OUR SPECIALIZE OFFER</h6>
+                        <h3 class="heading-48-fitree color-white">What we Have to Offer</h3>
+                    </div>
+                    <div class="col-lg-4 mb-4 text-center text-lg-end">
+                        <a href="#" class="btn btn-view-all">
+                            View all services
+                            <span>
+                                <svg width="17" height="16" viewBox="0 0 17 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M15.7022 11.7956C15.2253 11.2272 14.9576 10.0054 14.8098 8.91541C14.617 7.51069 14.6354 6.12852 14.9144 4.85136C15.1237 3.8938 15.4746 2.84878 16.0543 2.3623M16.0543 2.3623C15.4746 2.84878 14.3839 3.01336 13.4051 3.05268C12.0983 3.10495 10.7339 2.88301 9.3853 2.45076C8.33688 2.11515 7.17885 1.63785 6.70319 1.07098M16.0543 2.3623L1.49947 14.5753" stroke="white" stroke-width="2" />
+                                </svg>
+                            </span>
+                        </a>
+                    </div>
+                </div>
+                <div class="row list-services-9 mt-1">
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="card-offer mt-5 hover-up">
+                            <div class="card-image">
+                                <img src="assets/imgs/pages/home9/web.png" alt="Vatech" />
+                            </div>
+                            <div class="card-info">
+                                <h5 class="heading-36-fitree color-white">Web Development</h5>
+                                <a href="#" class="link-white paragraph-base-fitree-bold">
+                                    Read More
+                                    <svg width="14" height="13" viewBox="0 0 14 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M12.7291 10.1533C12.3596 9.69869 12.1635 8.73092 12.0604 7.86866C11.9256 6.75741 11.9573 5.66659 12.1934 4.66189C12.3705 3.90862 12.6605 3.08807 13.1242 2.71125M13.1242 2.71125C12.6605 3.08807 11.7975 3.20443 11.0244 3.22332C9.99212 3.24835 8.91789 3.05622 7.85869 2.69826C7.03526 2.42032 6.12707 2.02917 5.75863 1.57579M13.1242 2.71125L1.48325 12.1711" stroke="" stroke-width="2" />
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="card-offer hover-up">
+                            <div class="card-image">
+                                <img src="assets/imgs/pages/home9/ui.png" alt="Vatech" />
+                            </div>
+                            <div class="card-info">
+                                <h5 class="heading-36-fitree color-white">UI/UX DESIGNING</h5>
+                                <a href="#" class="link-white paragraph-base-fitree-bold">
+                                    Read More
+                                    <svg width="14" height="13" viewBox="0 0 14 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M12.7291 10.1533C12.3596 9.69869 12.1635 8.73092 12.0604 7.86866C11.9256 6.75741 11.9573 5.66659 12.1934 4.66189C12.3705 3.90862 12.6605 3.08807 13.1242 2.71125M13.1242 2.71125C12.6605 3.08807 11.7975 3.20443 11.0244 3.22332C9.99212 3.24835 8.91789 3.05622 7.85869 2.69826C7.03526 2.42032 6.12707 2.02917 5.75863 1.57579M13.1242 2.71125L1.48325 12.1711" stroke="" stroke-width="2" />
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="card-offer mt-5 hover-up">
+                            <div class="card-image">
+                                <img src="assets/imgs/pages/home9/digital.png" alt="Vatech" />
+                            </div>
+                            <div class="card-info">
+                                <h5 class="heading-36-fitree color-white">DIGITAL MARKETING</h5>
+                                <a href="#" class="link-white paragraph-base-fitree-bold">
+                                    Read More
+                                    <svg width="14" height="13" viewBox="0 0 14 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M12.7291 10.1533C12.3596 9.69869 12.1635 8.73092 12.0604 7.86866C11.9256 6.75741 11.9573 5.66659 12.1934 4.66189C12.3705 3.90862 12.6605 3.08807 13.1242 2.71125M13.1242 2.71125C12.6605 3.08807 11.7975 3.20443 11.0244 3.22332C9.99212 3.24835 8.91789 3.05622 7.85869 2.69826C7.03526 2.42032 6.12707 2.02917 5.75863 1.57579M13.1242 2.71125L1.48325 12.1711" stroke="" stroke-width="2" />
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="card-offer hover-up">
+                            <div class="card-image">
+                                <img src="assets/imgs/pages/home9/design.png" alt="Vatech" />
+                            </div>
+                            <div class="card-info">
+                                <h5 class="heading-36-fitree color-white">PRODUCT DESIGN</h5>
+                                <a href="#" class="link-white paragraph-base-fitree-bold">
+                                    Read More
+                                    <svg width="14" height="13" viewBox="0 0 14 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M12.7291 10.1533C12.3596 9.69869 12.1635 8.73092 12.0604 7.86866C11.9256 6.75741 11.9573 5.66659 12.1934 4.66189C12.3705 3.90862 12.6605 3.08807 13.1242 2.71125M13.1242 2.71125C12.6605 3.08807 11.7975 3.20443 11.0244 3.22332C9.99212 3.24835 8.91789 3.05622 7.85869 2.69826C7.03526 2.42032 6.12707 2.02917 5.75863 1.57579M13.1242 2.71125L1.48325 12.1711" stroke="" stroke-width="2" />
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--Home 9 Section 5 -->
+        <section class="position-relative overflow-hidden box-number-9">
+            <div class="container">
+                <div class="box-list-numbers">
+                    <div class="item-number" data-aos="fade-up" data-aos-duration="0">
+                        <div class="number-left">
+                            <img src="assets/imgs/pages/home9/success.png" alt="Vatech" />
+                        </div>
+                        <div class="number-right">
+                            <h4 class="heading-60-fitree secondery-500"><span class="odometer" data-count="95"></span><span class="d-inline-block align-middle">%</span></h4>
+                            <p class="paragraph-18-fitree gray-1000">Success Rate</p>
+                        </div>
+                    </div>
+                    <div class="item-number" data-aos="fade-up" data-aos-duration="500">
+                        <div class="number-left">
+                            <img src="assets/imgs/pages/home9/project.png" alt="Vatech" />
+                        </div>
+                        <div class="number-right">
+                            <h4 class="heading-60-fitree secondery-500"><span class="odometer" data-count="23"></span><span class="d-inline-block align-middle">K</span></h4>
+                            <p class="paragraph-18-fitree gray-1000">Complete Project</p>
+                        </div>
+                    </div>
+                    <div class="item-number" data-aos="fade-up" data-aos-duration="1000">
+                        <div class="number-left">
+                            <img src="assets/imgs/pages/home9/client2.png" alt="Vatech" />
+                        </div>
+                        <div class="number-right">
+                            <h4 class="heading-60-fitree secondery-500"><span class="odometer" data-count="12"></span><span class="d-inline-block align-middle">K</span></h4>
+                            <p class="paragraph-18-fitree gray-1000">Satisfied Client</p>
+                        </div>
+                    </div>
+                    <div class="item-number" data-aos="fade-up" data-aos-duration="1500">
+                        <div class="number-left">
+                            <img src="assets/imgs/pages/home9/trade2.png" alt="Vatech" />
+                        </div>
+                        <div class="number-right">
+                            <h4 class="heading-60-fitree secondery-500"><span class="odometer" data-count="520"></span></h4>
+                            <p class="paragraph-18-fitree gray-1000">Trade In The World</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--Home 9 Section 6 -->
+        <section class="position-relative overflow-hidden box-testimonials-9">
+            <div class="container swipper-root"></div>
+            <div class="container-testimonials" data-aos="fade-up">
+                <div class="testimonial-left">
+                    <div class="testimonial-left-inner">
+                        <img src="assets/imgs/pages/home9/img-client.png" alt="Vatech" class="wow img-custom-anim-top" />
+                        <a href="https://www.youtube.com/watch?v=TfU0qjuZkJ4" class="btn btn-play-3 popup-video">
+                            <img src="assets/imgs/pages/home9/btn-play.svg" alt="Vatech" />
+                        </a>
+                        <div class="box-button-slider">
+                            <div class="swiper-button-prev swiper-button-inline swiper-button-prev-style-1">
+                                <svg width="18" height="12" viewBox="0 0 18 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M6 2.62268e-07C6 0.636 5.45025 1.58571 4.89375 2.38286C4.17825 3.41143 3.32325 4.30886 2.343 4.99371C1.608 5.50714 0.717 6 -2.62268e-07 6M-2.62268e-07 6C0.717 6 1.60875 6.49286 2.343 7.00629C3.32325 7.692 4.17825 8.58943 4.89375 9.61629C5.45025 10.4143 6 11.3657 6 12M-2.62268e-07 6L18 6" stroke="" stroke-width="1.5" />
+                                </svg>
+                            </div>
+                            <div class="swiper-button-next swiper-button-inline swiper-button-next-style-1">
+                                <svg width="18" height="12" viewBox="0 0 18 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M12 12C12 11.364 12.5498 10.4143 13.1063 9.61714C13.8218 8.58857 14.6768 7.69114 15.657 7.00629C16.392 6.49286 17.283 6 18 6M18 6C17.283 6 16.3913 5.50714 15.657 4.99371C14.6768 4.308 13.8218 3.41057 13.1063 2.38371C12.5498 1.58571 12 0.634285 12 -3.81478e-07M18 6L2.62268e-07 6" stroke="" stroke-width="1.5" />
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-right">
+                    <div class="box-swiper">
+                        <div class="swiper-container slider-group-1">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <div class="card-testimonial-9">
+                                        <div class="card-info">
+                                            <h3 class="heading-48-fitree color-white mb-3">Client’s Talk With Our Services</h3>
+                                            <p class="paragraph-20-fitree color-white mb-40">“Deiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex eacommodo consequat. Duis aute irure dolor in reprehenderit in. tempor incididunt ut labore et dolore magna aliqua.’’</p>
+                                            <div class="box-review-author">
+                                                <div class="review-author">
+                                                    <div class="review-image">
+                                                        <img src="assets/imgs/pages/home9/author.png" alt="Vatech" />
+                                                    </div>
+                                                    <div class="review-author-info">
+                                                        <h5 class="sub-heading-md color-white">Cameron Williamson</h5>
+                                                        <p class="paragraph-rubik-r color-white-70">Product Manager</p>
+                                                    </div>
+                                                </div>
+                                                <div class="review-rate">
+                                                    <img src="assets/imgs/pages/home9/star.svg" alt="Vatech" />
+                                                    <img src="assets/imgs/pages/home9/star.svg" alt="Vatech" />
+                                                    <img src="assets/imgs/pages/home9/star.svg" alt="Vatech" />
+                                                    <img src="assets/imgs/pages/home9/star.svg" alt="Vatech" />
+                                                    <img src="assets/imgs/pages/home9/star.svg" alt="Vatech" />
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="card-testimonial-9">
+                                        <div class="card-info">
+                                            <h3 class="heading-48-fitree color-white mb-3">Client’s Talk With Our Services</h3>
+                                            <p class="paragraph-20-fitree color-white mb-40">“Deiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex eacommodo consequat. Duis aute irure dolor in reprehenderit in. tempor incididunt ut labore et dolore magna aliqua.’’</p>
+                                            <div class="box-review-author">
+                                                <div class="review-author">
+                                                    <div class="review-image">
+                                                        <img src="assets/imgs/pages/home9/author.png" alt="Vatech" />
+                                                    </div>
+                                                    <div class="review-author-info">
+                                                        <h5 class="sub-heading-md color-white">Cameron Williamson</h5>
+                                                        <p class="paragraph-rubik-r color-white-70">Product Manager</p>
+                                                    </div>
+                                                </div>
+                                                <div class="review-rate">
+                                                    <img src="assets/imgs/pages/home9/star.svg" alt="Vatech" />
+                                                    <img src="assets/imgs/pages/home9/star.svg" alt="Vatech" />
+                                                    <img src="assets/imgs/pages/home9/star.svg" alt="Vatech" />
+                                                    <img src="assets/imgs/pages/home9/star.svg" alt="Vatech" />
+                                                    <img src="assets/imgs/pages/home9/star.svg" alt="Vatech" />
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--Home 9 Section 7 -->
+        <section class="position-relative overflow-hidden box-latest-projects-9">
+            <div class="container swiper-root position-relative" data-aos="fade-up">
+                <div class="row position-relative align-items-end">
+                    <div class="col-lg-9 mb-4 text-center text-lg-start">
+                        <h6 class="text-border-square mb-20 text-uppercase">Latest project</h6>
+                        <h3 class="heading-48-fitree color-white">
+                            We Have Complete<br class="d-none d-lg-block" />
+                            1000+ Project Here
+                        </h3>
+                    </div>
+                    <div class="col-lg-3 mb-4 text-center text-lg-end">
+                        <div class="box-button-slider">
+                            <div class="swiper-button-prev swiper-button-inline swiper-button-prev-style-1 swiper-button-prev-style-tab">
+                                <svg width="18" height="12" viewBox="0 0 18 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M6 2.62268e-07C6 0.636 5.45025 1.58571 4.89375 2.38286C4.17825 3.41143 3.32325 4.30886 2.343 4.99371C1.608 5.50714 0.717 6 -2.62268e-07 6M-2.62268e-07 6C0.717 6 1.60875 6.49286 2.343 7.00629C3.32325 7.692 4.17825 8.58943 4.89375 9.61629C5.45025 10.4143 6 11.3657 6 12M-2.62268e-07 6L18 6" stroke="" stroke-width="1.5" />
+                                </svg>
+                            </div>
+                            <div class="swiper-button-next swiper-button-inline swiper-button-next-style-1 swiper-button-next-style-tab">
+                                <svg width="18" height="12" viewBox="0 0 18 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M12 12C12 11.364 12.5498 10.4143 13.1063 9.61714C13.8218 8.58857 14.6768 7.69114 15.657 7.00629C16.392 6.49286 17.283 6 18 6M18 6C17.283 6 16.3913 5.50714 15.657 4.99371C14.6768 4.308 13.8218 3.41057 13.1063 2.38371C12.5498 1.58571 12 0.634285 12 -3.81478e-07M18 6L2.62268e-07 6" stroke="" stroke-width="1.5" />
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="box-list-projects-9 auto-padding" data-aos="fade-up">
+                <div class="box-ul">
+                    <ul class="nav nav-tabs" id="pills-tab" role="tablist">
+                        <li><a href="#affordable" class="active" data-bs-toggle="tab" type="button" role="tab" aria-controls="affordable" aria-selected="true" data-index="1">Digital marketing</a></li>
+                        <li><a href="#knowledge" data-bs-toggle="tab" type="button" role="tab" aria-controls="knowledge" aria-selected="false" data-index="2">Design System</a></li>
+                        <li><a href="#savetimes" data-bs-toggle="tab" type="button" role="tab" aria-controls="savetimes" aria-selected="false" data-index="3">Software Development</a></li>
+                        <li><a href="#fastquality" data-bs-toggle="tab" type="button" role="tab" aria-controls="fastquality" aria-selected="false" data-index="4">Business Management</a></li>
+                        <li><a href="#experienced" data-bs-toggle="tab" type="button" role="tab" aria-controls="experienced" aria-selected="false" data-index="5">Market Analysis</a></li>
+                    </ul>
+                </div>
+                <div class="box-content-tab">
+                    <div class="tab-content">
+                        <div class="tab-pane active" id="affordable" role="tabpanel" aria-labelledby="affordable-tab" tabindex="0">
+                            <div class="box-swiper">
+                                <div class="swiper-container slider-group-3-tab-1">
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide">
+                                            <div class="card-project-4">
+                                                <div class="card-image">
+                                                    <img class="wow img-custom-anim-left" src="assets/imgs/pages/home9/project2.png" alt="Vatech" />
+                                                </div>
+                                                <div class="card-info">
+                                                    <h6 class="heading-24-fitree-bold">Software Development</h6>
+                                                    <a href="#" class="link-more">
+                                                        <svg width="15" height="14" viewBox="0 0 15 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                            <path d="M8.00005 13C8.00005 13 14 8.58107 14 6.99995C14 5.41884 8 1 8 1" stroke="" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                                            <path d="M1.00005 13C1.00005 13 6.99999 8.58107 7 6.99995C7.00001 5.41884 1 1 1 1" stroke="" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                                        </svg>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="card-project-4">
+                                                <div class="card-image">
+                                                    <img class="wow img-custom-anim-left" src="assets/imgs/pages/home9/project3.png" alt="Vatech" />
+                                                </div>
+                                                <div class="card-info">
+                                                    <h6 class="heading-24-fitree-bold">Software Development</h6>
+                                                    <a href="#" class="link-more">
+                                                        <svg width="15" height="14" viewBox="0 0 15 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                            <path d="M8.00005 13C8.00005 13 14 8.58107 14 6.99995C14 5.41884 8 1 8 1" stroke="" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                                            <path d="M1.00005 13C1.00005 13 6.99999 8.58107 7 6.99995C7.00001 5.41884 1 1 1 1" stroke="" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                                        </svg>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="card-project-4">
+                                                <div class="card-image">
+                                                    <img class="wow img-custom-anim-left" src="assets/imgs/pages/home9/project4.png" alt="Vatech" />
+                                                </div>
+                                                <div class="card-info">
+                                                    <h6 class="heading-24-fitree-bold">Software Development</h6>
+                                                    <a href="#" class="link-more">
+                                                        <svg width="15" height="14" viewBox="0 0 15 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                            <path d="M8.00005 13C8.00005 13 14 8.58107 14 6.99995C14 5.41884 8 1 8 1" stroke="" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                                            <path d="M1.00005 13C1.00005 13 6.99999 8.58107 7 6.99995C7.00001 5.41884 1 1 1 1" stroke="" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                                        </svg>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="card-project-4">
+                                                <div class="card-image">
+                                                    <img class="wow img-custom-anim-left" src="assets/imgs/pages/home9/project3.png" alt="Vatech" />
+                                                </div>
+                                                <div class="card-info">
+                                                    <h6 class="heading-24-fitree-bold">Software Development</h6>
+                                                    <a href="#" class="link-more">
+                                                        <svg width="15" height="14" viewBox="0 0 15 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                            <path d="M8.00005 13C8.00005 13 14 8.58107 14 6.99995C14 5.41884 8 1 8 1" stroke="" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                                            <path d="M1.00005 13C1.00005 13 6.99999 8.58107 7 6.99995C7.00001 5.41884 1 1 1 1" stroke="" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                                        </svg>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="card-project-4">
+                                                <div class="card-image">
+                                                    <img class="wow img-custom-anim-left" src="assets/imgs/pages/home9/project2.png" alt="Vatech" />
+                                                </div>
+                                                <div class="card-info">
+                                                    <h6 class="heading-24-fitree-bold">Software Development</h6>
+                                                    <a href="#" class="link-more">
+                                                        <svg width="15" height="14" viewBox="0 0 15 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                            <path d="M8.00005 13C8.00005 13 14 8.58107 14 6.99995C14 5.41884 8 1 8 1" stroke="" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                                            <path d="M1.00005 13C1.00005 13 6.99999 8.58107 7 6.99995C7.00001 5.41884 1 1 1 1" stroke="" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                                        </svg>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane" id="knowledge" role="tabpanel" aria-labelledby="knowledge-tab" tabindex="0">
+                            <div class="box-swiper">
+                                <div class="swiper-container slider-group-3-tab-2">
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide">
+                                            <div class="card-project-4">
+                                                <div class="card-image">
+                                                    <img src="assets/imgs/pages/home9/project2.png" alt="Vatech" />
+                                                </div>
+                                                <div class="card-info">
+                                                    <h6 class="heading-24-fitree-bold">Software Development</h6>
+                                                    <a href="#" class="link-more">
+                                                        <svg width="15" height="14" viewBox="0 0 15 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                            <path d="M8.00005 13C8.00005 13 14 8.58107 14 6.99995C14 5.41884 8 1 8 1" stroke="" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                                            <path d="M1.00005 13C1.00005 13 6.99999 8.58107 7 6.99995C7.00001 5.41884 1 1 1 1" stroke="" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                                        </svg>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="card-project-4">
+                                                <div class="card-image">
+                                                    <img src="assets/imgs/pages/home9/project3.png" alt="Vatech" />
+                                                </div>
+                                                <div class="card-info">
+                                                    <h6 class="heading-24-fitree-bold">Software Development</h6>
+                                                    <a href="#" class="link-more">
+                                                        <svg width="15" height="14" viewBox="0 0 15 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                            <path d="M8.00005 13C8.00005 13 14 8.58107 14 6.99995C14 5.41884 8 1 8 1" stroke="" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                                            <path d="M1.00005 13C1.00005 13 6.99999 8.58107 7 6.99995C7.00001 5.41884 1 1 1 1" stroke="" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                                        </svg>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="card-project-4">
+                                                <div class="card-image">
+                                                    <img src="assets/imgs/pages/home9/project4.png" alt="Vatech" />
+                                                </div>
+                                                <div class="card-info">
+                                                    <h6 class="heading-24-fitree-bold">Software Development</h6>
+                                                    <a href="#" class="link-more">
+                                                        <svg width="15" height="14" viewBox="0 0 15 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                            <path d="M8.00005 13C8.00005 13 14 8.58107 14 6.99995C14 5.41884 8 1 8 1" stroke="" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                                            <path d="M1.00005 13C1.00005 13 6.99999 8.58107 7 6.99995C7.00001 5.41884 1 1 1 1" stroke="" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                                        </svg>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="card-project-4">
+                                                <div class="card-image">
+                                                    <img src="assets/imgs/pages/home9/project2.png" alt="Vatech" />
+                                                </div>
+                                                <div class="card-info">
+                                                    <h6 class="heading-24-fitree-bold">Software Development</h6>
+                                                    <a href="#" class="link-more">
+                                                        <svg width="15" height="14" viewBox="0 0 15 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                            <path d="M8.00005 13C8.00005 13 14 8.58107 14 6.99995C14 5.41884 8 1 8 1" stroke="" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                                            <path d="M1.00005 13C1.00005 13 6.99999 8.58107 7 6.99995C7.00001 5.41884 1 1 1 1" stroke="" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                                        </svg>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="card-project-4">
+                                                <div class="card-image">
+                                                    <img src="assets/imgs/pages/home9/project3.png" alt="Vatech" />
+                                                </div>
+                                                <div class="card-info">
+                                                    <h6 class="heading-24-fitree-bold">Software Development</h6>
+                                                    <a href="#" class="link-more">
+                                                        <svg width="15" height="14" viewBox="0 0 15 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                            <path d="M8.00005 13C8.00005 13 14 8.58107 14 6.99995C14 5.41884 8 1 8 1" stroke="" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                                            <path d="M1.00005 13C1.00005 13 6.99999 8.58107 7 6.99995C7.00001 5.41884 1 1 1 1" stroke="" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                                        </svg>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane" id="savetimes" role="tabpanel" aria-labelledby="savetimes-tab" tabindex="0">
+                            <div class="box-swiper">
+                                <div class="swiper-container slider-group-3-tab-3">
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide">
+                                            <div class="card-project-4">
+                                                <div class="card-image">
+                                                    <img src="assets/imgs/pages/home9/project3.png" alt="Vatech" />
+                                                </div>
+                                                <div class="card-info">
+                                                    <h6 class="heading-24-fitree-bold">Software Development</h6>
+                                                    <a href="#" class="link-more">
+                                                        <svg width="15" height="14" viewBox="0 0 15 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                            <path d="M8.00005 13C8.00005 13 14 8.58107 14 6.99995C14 5.41884 8 1 8 1" stroke="" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                                            <path d="M1.00005 13C1.00005 13 6.99999 8.58107 7 6.99995C7.00001 5.41884 1 1 1 1" stroke="" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                                        </svg>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="card-project-4">
+                                                <div class="card-image">
+                                                    <img src="assets/imgs/pages/home9/project2.png" alt="Vatech" />
+                                                </div>
+                                                <div class="card-info">
+                                                    <h6 class="heading-24-fitree-bold">Software Development</h6>
+                                                    <a href="#" class="link-more">
+                                                        <svg width="15" height="14" viewBox="0 0 15 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                            <path d="M8.00005 13C8.00005 13 14 8.58107 14 6.99995C14 5.41884 8 1 8 1" stroke="" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                                            <path d="M1.00005 13C1.00005 13 6.99999 8.58107 7 6.99995C7.00001 5.41884 1 1 1 1" stroke="" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                                        </svg>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="card-project-4">
+                                                <div class="card-image">
+                                                    <img src="assets/imgs/pages/home9/project4.png" alt="Vatech" />
+                                                </div>
+                                                <div class="card-info">
+                                                    <h6 class="heading-24-fitree-bold">Software Development</h6>
+                                                    <a href="#" class="link-more">
+                                                        <svg width="15" height="14" viewBox="0 0 15 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                            <path d="M8.00005 13C8.00005 13 14 8.58107 14 6.99995C14 5.41884 8 1 8 1" stroke="" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                                            <path d="M1.00005 13C1.00005 13 6.99999 8.58107 7 6.99995C7.00001 5.41884 1 1 1 1" stroke="" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                                        </svg>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="card-project-4">
+                                                <div class="card-image">
+                                                    <img src="assets/imgs/pages/home9/project3.png" alt="Vatech" />
+                                                </div>
+                                                <div class="card-info">
+                                                    <h6 class="heading-24-fitree-bold">Software Development</h6>
+                                                    <a href="#" class="link-more">
+                                                        <svg width="15" height="14" viewBox="0 0 15 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                            <path d="M8.00005 13C8.00005 13 14 8.58107 14 6.99995C14 5.41884 8 1 8 1" stroke="" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                                            <path d="M1.00005 13C1.00005 13 6.99999 8.58107 7 6.99995C7.00001 5.41884 1 1 1 1" stroke="" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                                        </svg>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="card-project-4">
+                                                <div class="card-image">
+                                                    <img src="assets/imgs/pages/home9/project2.png" alt="Vatech" />
+                                                </div>
+                                                <div class="card-info">
+                                                    <h6 class="heading-24-fitree-bold">Software Development</h6>
+                                                    <a href="#" class="link-more">
+                                                        <svg width="15" height="14" viewBox="0 0 15 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                            <path d="M8.00005 13C8.00005 13 14 8.58107 14 6.99995C14 5.41884 8 1 8 1" stroke="" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                                            <path d="M1.00005 13C1.00005 13 6.99999 8.58107 7 6.99995C7.00001 5.41884 1 1 1 1" stroke="" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                                        </svg>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane" id="fastquality" role="tabpanel" aria-labelledby="fastquality-tab" tabindex="0">
+                            <div class="box-swiper">
+                                <div class="swiper-container slider-group-3-tab-4">
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide">
+                                            <div class="card-project-4">
+                                                <div class="card-image">
+                                                    <img src="assets/imgs/pages/home9/project4.png" alt="Vatech" />
+                                                </div>
+                                                <div class="card-info">
+                                                    <h6 class="heading-24-fitree-bold">Software Development</h6>
+                                                    <a href="#" class="link-more">
+                                                        <svg width="15" height="14" viewBox="0 0 15 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                            <path d="M8.00005 13C8.00005 13 14 8.58107 14 6.99995C14 5.41884 8 1 8 1" stroke="" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                                            <path d="M1.00005 13C1.00005 13 6.99999 8.58107 7 6.99995C7.00001 5.41884 1 1 1 1" stroke="" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                                        </svg>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="card-project-4">
+                                                <div class="card-image">
+                                                    <img src="assets/imgs/pages/home9/project2.png" alt="Vatech" />
+                                                </div>
+                                                <div class="card-info">
+                                                    <h6 class="heading-24-fitree-bold">Software Development</h6>
+                                                    <a href="#" class="link-more">
+                                                        <svg width="15" height="14" viewBox="0 0 15 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                            <path d="M8.00005 13C8.00005 13 14 8.58107 14 6.99995C14 5.41884 8 1 8 1" stroke="" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                                            <path d="M1.00005 13C1.00005 13 6.99999 8.58107 7 6.99995C7.00001 5.41884 1 1 1 1" stroke="" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                                        </svg>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="card-project-4">
+                                                <div class="card-image">
+                                                    <img src="assets/imgs/pages/home9/project3.png" alt="Vatech" />
+                                                </div>
+                                                <div class="card-info">
+                                                    <h6 class="heading-24-fitree-bold">Software Development</h6>
+                                                    <a href="#" class="link-more">
+                                                        <svg width="15" height="14" viewBox="0 0 15 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                            <path d="M8.00005 13C8.00005 13 14 8.58107 14 6.99995C14 5.41884 8 1 8 1" stroke="" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                                            <path d="M1.00005 13C1.00005 13 6.99999 8.58107 7 6.99995C7.00001 5.41884 1 1 1 1" stroke="" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                                        </svg>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="card-project-4">
+                                                <div class="card-image">
+                                                    <img src="assets/imgs/pages/home9/project4.png" alt="Vatech" />
+                                                </div>
+                                                <div class="card-info">
+                                                    <h6 class="heading-24-fitree-bold">Software Development</h6>
+                                                    <a href="#" class="link-more">
+                                                        <svg width="15" height="14" viewBox="0 0 15 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                            <path d="M8.00005 13C8.00005 13 14 8.58107 14 6.99995C14 5.41884 8 1 8 1" stroke="" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                                            <path d="M1.00005 13C1.00005 13 6.99999 8.58107 7 6.99995C7.00001 5.41884 1 1 1 1" stroke="" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                                        </svg>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="card-project-4">
+                                                <div class="card-image">
+                                                    <img src="assets/imgs/pages/home9/project3.png" alt="Vatech" />
+                                                </div>
+                                                <div class="card-info">
+                                                    <h6 class="heading-24-fitree-bold">Software Development</h6>
+                                                    <a href="#" class="link-more">
+                                                        <svg width="15" height="14" viewBox="0 0 15 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                            <path d="M8.00005 13C8.00005 13 14 8.58107 14 6.99995C14 5.41884 8 1 8 1" stroke="" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                                            <path d="M1.00005 13C1.00005 13 6.99999 8.58107 7 6.99995C7.00001 5.41884 1 1 1 1" stroke="" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                                        </svg>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane" id="experienced" role="tabpanel" aria-labelledby="experienced-tab" tabindex="0">
+                            <div class="box-swiper">
+                                <div class="swiper-container slider-group-3-tab-5">
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide">
+                                            <div class="card-project-4">
+                                                <div class="card-image">
+                                                    <img src="assets/imgs/pages/home9/project3.png" alt="Vatech" />
+                                                </div>
+                                                <div class="card-info">
+                                                    <h6 class="heading-24-fitree-bold">Software Development</h6>
+                                                    <a href="#" class="link-more">
+                                                        <svg width="15" height="14" viewBox="0 0 15 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                            <path d="M8.00005 13C8.00005 13 14 8.58107 14 6.99995C14 5.41884 8 1 8 1" stroke="" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                                            <path d="M1.00005 13C1.00005 13 6.99999 8.58107 7 6.99995C7.00001 5.41884 1 1 1 1" stroke="" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                                        </svg>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="card-project-4">
+                                                <div class="card-image">
+                                                    <img src="assets/imgs/pages/home9/project2.png" alt="Vatech" />
+                                                </div>
+                                                <div class="card-info">
+                                                    <h6 class="heading-24-fitree-bold">Software Development</h6>
+                                                    <a href="#" class="link-more">
+                                                        <svg width="15" height="14" viewBox="0 0 15 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                            <path d="M8.00005 13C8.00005 13 14 8.58107 14 6.99995C14 5.41884 8 1 8 1" stroke="" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                                            <path d="M1.00005 13C1.00005 13 6.99999 8.58107 7 6.99995C7.00001 5.41884 1 1 1 1" stroke="" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                                        </svg>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="card-project-4">
+                                                <div class="card-image">
+                                                    <img src="assets/imgs/pages/home9/project3.png" alt="Vatech" />
+                                                </div>
+                                                <div class="card-info">
+                                                    <h6 class="heading-24-fitree-bold">Software Development</h6>
+                                                    <a href="#" class="link-more">
+                                                        <svg width="15" height="14" viewBox="0 0 15 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                            <path d="M8.00005 13C8.00005 13 14 8.58107 14 6.99995C14 5.41884 8 1 8 1" stroke="" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                                            <path d="M1.00005 13C1.00005 13 6.99999 8.58107 7 6.99995C7.00001 5.41884 1 1 1 1" stroke="" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                                        </svg>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="card-project-4">
+                                                <div class="card-image">
+                                                    <img src="assets/imgs/pages/home9/project2.png" alt="Vatech" />
+                                                </div>
+                                                <div class="card-info">
+                                                    <h6 class="heading-24-fitree-bold">Software Development</h6>
+                                                    <a href="#" class="link-more">
+                                                        <svg width="15" height="14" viewBox="0 0 15 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                            <path d="M8.00005 13C8.00005 13 14 8.58107 14 6.99995C14 5.41884 8 1 8 1" stroke="" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                                            <path d="M1.00005 13C1.00005 13 6.99999 8.58107 7 6.99995C7.00001 5.41884 1 1 1 1" stroke="" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                                        </svg>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="card-project-4">
+                                                <div class="card-image">
+                                                    <img src="assets/imgs/pages/home9/project4.png" alt="Vatech" />
+                                                </div>
+                                                <div class="card-info">
+                                                    <h6 class="heading-24-fitree-bold">Software Development</h6>
+                                                    <a href="#" class="link-more">
+                                                        <svg width="15" height="14" viewBox="0 0 15 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                            <path d="M8.00005 13C8.00005 13 14 8.58107 14 6.99995C14 5.41884 8 1 8 1" stroke="" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                                            <path d="M1.00005 13C1.00005 13 6.99999 8.58107 7 6.99995C7.00001 5.41884 1 1 1 1" stroke="" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                                        </svg>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--Home 9 Section 8 -->
+        <section class="position-relative overflow-hidden box-team-member-9">
+            <div class="container">
+                <div class="text-center">
+                    <p class="paragraph-base-fitree-medium lable-border text-uppercase mb-4">Team members</p>
+                    <h2 class="heading-48-fitree dark-950 mb-4">Meet Our Expertise & Supporter</h2>
+                </div>
+                <div class="row mt-5">
+                    <div class="col-lg-4 col-md-6">
+                        <div class="card-team-member-2">
+                            <div class="card-image">
+                                <a href="#"><img class="wow img-custom-anim-top" src="assets/imgs/pages/home9/team.png" alt="Vatech" /></a>
+                            </div>
+                            <div class="card-info">
+                                <div class="card-info-left">
+                                    <a href="#" class="heading-24-fitree-bold">Emely Haider</a>
+                                    <p>Hr Manager</p>
+                                </div>
+                                <div class="card-info-right">
+                                    <a href="#" class="link-more">
+                                        <svg width="16" height="12" viewBox="0 0 16 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M10.6667 12C10.6667 11.364 11.1553 10.4143 11.65 9.61714C12.286 8.58857 13.046 7.69114 13.9173 7.00629C14.5707 6.49286 15.3627 6 16 6M16 6C15.3627 6 14.57 5.50714 13.9173 4.99371C13.046 4.308 12.286 3.41057 11.65 2.38371C11.1553 1.58571 10.6667 0.634285 10.6667 -3.81478e-07M16 6L-2.4371e-07 6" stroke="" stroke-width="2" />
+                                        </svg>
+                                    </a>
+                                    <div class="list-socials">
+                                        <a href="#">
+                                            <svg width="8" height="15" viewBox="0 0 8 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M2.21404 15H4.85109V8.15625H7.05612L7.38913 5.49375H4.85109V3.7875C4.85109 3.01875 5.05809 2.49375 6.12011 2.49375H7.47913V0.103125C7.24513 0.0749999 6.44411 0 5.5081 0C3.54606 0 2.21404 1.24688 2.21404 3.525V5.49375H0L0 8.15625H2.21404V15Z" fill="" />
+                                            </svg>
+                                        </a>
+                                        <a href="#">
+                                            <svg width="18" height="15" viewBox="0 0 18 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M17.7629 1.69456C17.0938 2.00837 16.4246 2.19665 15.6338 2.32217C16.3638 1.82008 16.9721 1.12971 17.2763 0.251046C16.5463 0.690376 15.7555 1.00418 14.9647 1.19247C14.2955 0.43933 13.3222 0 12.2881 0C10.2806 0 8.57731 1.69456 8.57731 3.82845C8.57731 4.14226 8.63814 4.39331 8.69897 4.70711C5.65737 4.58159 2.91993 3.01255 1.09498 0.753138C0.790816 1.19247 0.60832 1.82008 0.60832 2.51046C0.60832 3.82845 1.27747 5.02092 2.25078 5.64854C1.64246 5.64854 1.09498 5.46025 0.60832 5.14644V5.2092C0.60832 7.02929 1.88579 8.59832 3.58909 8.91213C3.28493 8.97489 2.98077 9.03766 2.61578 9.03766C2.37245 9.03766 2.12912 9.03766 1.94662 8.97489C2.43328 10.4812 3.77158 11.6109 5.41405 11.6109C4.13657 12.6151 2.55494 13.2427 0.851647 13.2427C0.547488 13.2427 0.243328 13.2427 0 13.1799C1.45997 14.3724 3.40659 15 5.47488 15C12.2272 15 15.938 9.22594 15.938 4.20502V3.70293C16.668 3.13808 17.2763 2.51046 17.7629 1.69456Z" fill="" />
+                                            </svg>
+                                        </a>
+                                        <a href="#">
+                                            <svg width="13" height="16" viewBox="0 0 13 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M6.68303 0.515625C2.63279 0.515625 0.515625 3.14063 0.515625 6.04688C0.515625 7.45313 1.25203 8.85938 2.44869 9.60938C2.8169 9.79688 2.72485 9.60938 3.001 8.48438C3.001 8.39063 3.001 8.29688 2.90895 8.20313C1.25203 6.14063 2.6328 2.10938 6.49893 2.10938C12.114 2.10938 11.0094 9.98438 7.51149 9.98438C6.77508 10.0781 6.13073 9.51563 6.13073 8.76563L6.13073 8.39063C6.49893 7.35938 6.77508 6.42188 6.86713 5.39063C6.86713 3.42188 4.01356 3.70313 4.01356 6.32813C4.01356 6.79688 4.10561 7.26563 4.28971 7.64063C4.28971 7.64063 3.3692 11.4844 3.1851 12.1406C3.001 13.2656 3.09305 14.3906 3.27715 15.4219C3.1851 15.5156 3.27715 15.5156 3.27715 15.5156L3.3692 15.5156C4.01356 14.5781 4.56586 13.6406 4.93407 12.6094C5.02612 12.1406 5.48637 10.4531 5.48637 10.4531C5.94663 11.1094 6.77508 11.4844 7.60354 11.4844C10.4571 11.4844 12.4822 8.95313 12.4822 5.85938C12.4822 2.76563 9.90481 0.515625 6.68303 0.515625Z" fill="" />
+                                            </svg>
+                                        </a>
+                                        <a href="#">
+                                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M12.3945 10.2266C11.5261 10.2266 10.7609 10.6537 10.2803 11.3034L6.12471 9.17551C6.1937 8.94034 6.24219 8.69662 6.24219 8.43945C6.24219 8.09064 6.17067 7.75903 6.04713 7.45402L10.3961 4.83699C10.8801 5.405 11.5915 5.77344 12.3945 5.77344C13.8485 5.77344 15.0312 4.59069 15.0312 3.13672C15.0312 1.68274 13.8485 0.5 12.3945 0.5C10.9406 0.5 9.75781 1.68274 9.75781 3.13672C9.75781 3.47179 9.82681 3.78963 9.94127 4.08471L5.57935 6.70941C5.09577 6.15828 4.39464 5.80273 3.60547 5.80273C2.15149 5.80273 0.96875 6.98548 0.96875 8.43945C0.96875 9.89343 2.15149 11.0762 3.60547 11.0762C4.48818 11.0762 5.26634 10.6365 5.74517 9.96857L9.88704 12.0895C9.81075 12.3358 9.75781 12.5923 9.75781 12.8633C9.75781 14.3173 10.9406 15.5 12.3945 15.5C13.8485 15.5 15.0312 14.3173 15.0312 12.8633C15.0312 11.4093 13.8485 10.2266 12.3945 10.2266Z" fill="" />
+                                            </svg>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="card-team-member-2">
+                            <div class="card-image">
+                                <a href="#"><img class="wow img-custom-anim-top" src="assets/imgs/pages/home9/team2.png" alt="Vatech" /></a>
+                            </div>
+                            <div class="card-info">
+                                <div class="card-info-left">
+                                    <a href="#" class="heading-24-fitree-bold">Emely Haider</a>
+                                    <p>Hr Manager</p>
+                                </div>
+                                <div class="card-info-right">
+                                    <a href="#" class="link-more">
+                                        <svg width="16" height="12" viewBox="0 0 16 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M10.6667 12C10.6667 11.364 11.1553 10.4143 11.65 9.61714C12.286 8.58857 13.046 7.69114 13.9173 7.00629C14.5707 6.49286 15.3627 6 16 6M16 6C15.3627 6 14.57 5.50714 13.9173 4.99371C13.046 4.308 12.286 3.41057 11.65 2.38371C11.1553 1.58571 10.6667 0.634285 10.6667 -3.81478e-07M16 6L-2.4371e-07 6" stroke="" stroke-width="2" />
+                                        </svg>
+                                    </a>
+                                    <div class="list-socials">
+                                        <a href="#">
+                                            <svg width="8" height="15" viewBox="0 0 8 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M2.21404 15H4.85109V8.15625H7.05612L7.38913 5.49375H4.85109V3.7875C4.85109 3.01875 5.05809 2.49375 6.12011 2.49375H7.47913V0.103125C7.24513 0.0749999 6.44411 0 5.5081 0C3.54606 0 2.21404 1.24688 2.21404 3.525V5.49375H0L0 8.15625H2.21404V15Z" fill="" />
+                                            </svg>
+                                        </a>
+                                        <a href="#">
+                                            <svg width="18" height="15" viewBox="0 0 18 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M17.7629 1.69456C17.0938 2.00837 16.4246 2.19665 15.6338 2.32217C16.3638 1.82008 16.9721 1.12971 17.2763 0.251046C16.5463 0.690376 15.7555 1.00418 14.9647 1.19247C14.2955 0.43933 13.3222 0 12.2881 0C10.2806 0 8.57731 1.69456 8.57731 3.82845C8.57731 4.14226 8.63814 4.39331 8.69897 4.70711C5.65737 4.58159 2.91993 3.01255 1.09498 0.753138C0.790816 1.19247 0.60832 1.82008 0.60832 2.51046C0.60832 3.82845 1.27747 5.02092 2.25078 5.64854C1.64246 5.64854 1.09498 5.46025 0.60832 5.14644V5.2092C0.60832 7.02929 1.88579 8.59832 3.58909 8.91213C3.28493 8.97489 2.98077 9.03766 2.61578 9.03766C2.37245 9.03766 2.12912 9.03766 1.94662 8.97489C2.43328 10.4812 3.77158 11.6109 5.41405 11.6109C4.13657 12.6151 2.55494 13.2427 0.851647 13.2427C0.547488 13.2427 0.243328 13.2427 0 13.1799C1.45997 14.3724 3.40659 15 5.47488 15C12.2272 15 15.938 9.22594 15.938 4.20502V3.70293C16.668 3.13808 17.2763 2.51046 17.7629 1.69456Z" fill="" />
+                                            </svg>
+                                        </a>
+                                        <a href="#">
+                                            <svg width="13" height="16" viewBox="0 0 13 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M6.68303 0.515625C2.63279 0.515625 0.515625 3.14063 0.515625 6.04688C0.515625 7.45313 1.25203 8.85938 2.44869 9.60938C2.8169 9.79688 2.72485 9.60938 3.001 8.48438C3.001 8.39063 3.001 8.29688 2.90895 8.20313C1.25203 6.14063 2.6328 2.10938 6.49893 2.10938C12.114 2.10938 11.0094 9.98438 7.51149 9.98438C6.77508 10.0781 6.13073 9.51563 6.13073 8.76563L6.13073 8.39063C6.49893 7.35938 6.77508 6.42188 6.86713 5.39063C6.86713 3.42188 4.01356 3.70313 4.01356 6.32813C4.01356 6.79688 4.10561 7.26563 4.28971 7.64063C4.28971 7.64063 3.3692 11.4844 3.1851 12.1406C3.001 13.2656 3.09305 14.3906 3.27715 15.4219C3.1851 15.5156 3.27715 15.5156 3.27715 15.5156L3.3692 15.5156C4.01356 14.5781 4.56586 13.6406 4.93407 12.6094C5.02612 12.1406 5.48637 10.4531 5.48637 10.4531C5.94663 11.1094 6.77508 11.4844 7.60354 11.4844C10.4571 11.4844 12.4822 8.95313 12.4822 5.85938C12.4822 2.76563 9.90481 0.515625 6.68303 0.515625Z" fill="" />
+                                            </svg>
+                                        </a>
+                                        <a href="#">
+                                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M12.3945 10.2266C11.5261 10.2266 10.7609 10.6537 10.2803 11.3034L6.12471 9.17551C6.1937 8.94034 6.24219 8.69662 6.24219 8.43945C6.24219 8.09064 6.17067 7.75903 6.04713 7.45402L10.3961 4.83699C10.8801 5.405 11.5915 5.77344 12.3945 5.77344C13.8485 5.77344 15.0312 4.59069 15.0312 3.13672C15.0312 1.68274 13.8485 0.5 12.3945 0.5C10.9406 0.5 9.75781 1.68274 9.75781 3.13672C9.75781 3.47179 9.82681 3.78963 9.94127 4.08471L5.57935 6.70941C5.09577 6.15828 4.39464 5.80273 3.60547 5.80273C2.15149 5.80273 0.96875 6.98548 0.96875 8.43945C0.96875 9.89343 2.15149 11.0762 3.60547 11.0762C4.48818 11.0762 5.26634 10.6365 5.74517 9.96857L9.88704 12.0895C9.81075 12.3358 9.75781 12.5923 9.75781 12.8633C9.75781 14.3173 10.9406 15.5 12.3945 15.5C13.8485 15.5 15.0312 14.3173 15.0312 12.8633C15.0312 11.4093 13.8485 10.2266 12.3945 10.2266Z" fill="" />
+                                            </svg>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="card-team-member-2">
+                            <div class="card-image">
+                                <a href="#"><img class="wow img-custom-anim-top" src="assets/imgs/pages/home9/team3.png" alt="Vatech" /></a>
+                            </div>
+                            <div class="card-info">
+                                <div class="card-info-left">
+                                    <a href="#" class="heading-24-fitree-bold">Emely Haider</a>
+                                    <p>Hr Manager</p>
+                                </div>
+                                <div class="card-info-right">
+                                    <a href="#" class="link-more">
+                                        <svg width="16" height="12" viewBox="0 0 16 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M10.6667 12C10.6667 11.364 11.1553 10.4143 11.65 9.61714C12.286 8.58857 13.046 7.69114 13.9173 7.00629C14.5707 6.49286 15.3627 6 16 6M16 6C15.3627 6 14.57 5.50714 13.9173 4.99371C13.046 4.308 12.286 3.41057 11.65 2.38371C11.1553 1.58571 10.6667 0.634285 10.6667 -3.81478e-07M16 6L-2.4371e-07 6" stroke="" stroke-width="2" />
+                                        </svg>
+                                    </a>
+                                    <div class="list-socials">
+                                        <a href="#">
+                                            <svg width="8" height="15" viewBox="0 0 8 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M2.21404 15H4.85109V8.15625H7.05612L7.38913 5.49375H4.85109V3.7875C4.85109 3.01875 5.05809 2.49375 6.12011 2.49375H7.47913V0.103125C7.24513 0.0749999 6.44411 0 5.5081 0C3.54606 0 2.21404 1.24688 2.21404 3.525V5.49375H0L0 8.15625H2.21404V15Z" fill="" />
+                                            </svg>
+                                        </a>
+                                        <a href="#">
+                                            <svg width="18" height="15" viewBox="0 0 18 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M17.7629 1.69456C17.0938 2.00837 16.4246 2.19665 15.6338 2.32217C16.3638 1.82008 16.9721 1.12971 17.2763 0.251046C16.5463 0.690376 15.7555 1.00418 14.9647 1.19247C14.2955 0.43933 13.3222 0 12.2881 0C10.2806 0 8.57731 1.69456 8.57731 3.82845C8.57731 4.14226 8.63814 4.39331 8.69897 4.70711C5.65737 4.58159 2.91993 3.01255 1.09498 0.753138C0.790816 1.19247 0.60832 1.82008 0.60832 2.51046C0.60832 3.82845 1.27747 5.02092 2.25078 5.64854C1.64246 5.64854 1.09498 5.46025 0.60832 5.14644V5.2092C0.60832 7.02929 1.88579 8.59832 3.58909 8.91213C3.28493 8.97489 2.98077 9.03766 2.61578 9.03766C2.37245 9.03766 2.12912 9.03766 1.94662 8.97489C2.43328 10.4812 3.77158 11.6109 5.41405 11.6109C4.13657 12.6151 2.55494 13.2427 0.851647 13.2427C0.547488 13.2427 0.243328 13.2427 0 13.1799C1.45997 14.3724 3.40659 15 5.47488 15C12.2272 15 15.938 9.22594 15.938 4.20502V3.70293C16.668 3.13808 17.2763 2.51046 17.7629 1.69456Z" fill="" />
+                                            </svg>
+                                        </a>
+                                        <a href="#">
+                                            <svg width="13" height="16" viewBox="0 0 13 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M6.68303 0.515625C2.63279 0.515625 0.515625 3.14063 0.515625 6.04688C0.515625 7.45313 1.25203 8.85938 2.44869 9.60938C2.8169 9.79688 2.72485 9.60938 3.001 8.48438C3.001 8.39063 3.001 8.29688 2.90895 8.20313C1.25203 6.14063 2.6328 2.10938 6.49893 2.10938C12.114 2.10938 11.0094 9.98438 7.51149 9.98438C6.77508 10.0781 6.13073 9.51563 6.13073 8.76563L6.13073 8.39063C6.49893 7.35938 6.77508 6.42188 6.86713 5.39063C6.86713 3.42188 4.01356 3.70313 4.01356 6.32813C4.01356 6.79688 4.10561 7.26563 4.28971 7.64063C4.28971 7.64063 3.3692 11.4844 3.1851 12.1406C3.001 13.2656 3.09305 14.3906 3.27715 15.4219C3.1851 15.5156 3.27715 15.5156 3.27715 15.5156L3.3692 15.5156C4.01356 14.5781 4.56586 13.6406 4.93407 12.6094C5.02612 12.1406 5.48637 10.4531 5.48637 10.4531C5.94663 11.1094 6.77508 11.4844 7.60354 11.4844C10.4571 11.4844 12.4822 8.95313 12.4822 5.85938C12.4822 2.76563 9.90481 0.515625 6.68303 0.515625Z" fill="" />
+                                            </svg>
+                                        </a>
+                                        <a href="#">
+                                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M12.3945 10.2266C11.5261 10.2266 10.7609 10.6537 10.2803 11.3034L6.12471 9.17551C6.1937 8.94034 6.24219 8.69662 6.24219 8.43945C6.24219 8.09064 6.17067 7.75903 6.04713 7.45402L10.3961 4.83699C10.8801 5.405 11.5915 5.77344 12.3945 5.77344C13.8485 5.77344 15.0312 4.59069 15.0312 3.13672C15.0312 1.68274 13.8485 0.5 12.3945 0.5C10.9406 0.5 9.75781 1.68274 9.75781 3.13672C9.75781 3.47179 9.82681 3.78963 9.94127 4.08471L5.57935 6.70941C5.09577 6.15828 4.39464 5.80273 3.60547 5.80273C2.15149 5.80273 0.96875 6.98548 0.96875 8.43945C0.96875 9.89343 2.15149 11.0762 3.60547 11.0762C4.48818 11.0762 5.26634 10.6365 5.74517 9.96857L9.88704 12.0895C9.81075 12.3358 9.75781 12.5923 9.75781 12.8633C9.75781 14.3173 10.9406 15.5 12.3945 15.5C13.8485 15.5 15.0312 14.3173 15.0312 12.8633C15.0312 11.4093 13.8485 10.2266 12.3945 10.2266Z" fill="" />
+                                            </svg>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--Home 9 Section 6 -->
+        <section class="position-relative box-we-can-help">
+            <div class="container">
+                <div class="block-can-help">
+                    <div class="block-left wow img-custom-anim-left">
+                        <h2 class="display-4xl-bold text-uppercase color-white mb-3">We Can Help!</h2>
+                        <p class="paragraph-24-fitree primary-50 mb-4">Innovative Success For your Next Destination for helping Community.</p>
+                        <a href="#" class="btn btn-white">Free Consultancy
+                            <svg width="19" height="15" viewBox="0 0 19 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M12.6667 14.5C12.6667 13.758 13.247 12.65 13.8344 11.72C14.5896 10.52 15.4921 9.473 16.5268 8.674C17.3027 8.075 18.2432 7.5 19 7.5M19 7.5C18.2432 7.5 17.3019 6.925 16.5268 6.326C15.4921 5.526 14.5896 4.479 13.8344 3.281C13.247 2.35 12.6667 1.24 12.6667 0.500001M19 7.5L3.0598e-07 7.5L19 7.5Z" fill="" />
+                                <path d="M12.6667 14.5C12.6667 13.758 13.247 12.65 13.8344 11.72C14.5896 10.52 15.4921 9.473 16.5268 8.674C17.3027 8.075 18.2432 7.5 19 7.5M19 7.5C18.2432 7.5 17.3019 6.925 16.5268 6.326C15.4921 5.526 14.5896 4.479 13.8344 3.281C13.247 2.35 12.6667 1.24 12.6667 0.500001M19 7.5L-1.70857e-07 7.5" stroke="" stroke-width="2" />
+                            </svg>
+                        </a>
+                    </div>
+                    <div class="block-right">
+                        <div class="box-image-help wow img-custom-anim-right">
+                            <img src="assets/imgs/pages/home9/help.png" alt="Vatech" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--Home 9 Section 10 -->
+        <section class="position-relative overflow-hidden box-latest-blog-3 box-latest-blog-9">
+            <div class="container">
+                <div class="row position-relative align-items-end">
+                    <div class="col-lg-9 mb-4 text-center text-lg-start">
+                        <h6 class="sub-heading-ag-sm primary-500 text-uppercase mb-2">Latest blog</h6>
+                        <h3 class="heading-3xl secondery-500">
+                            Our Latest Trending<br class="d-none d-lg-block" />
+                            Blogs & News
+                        </h3>
+                    </div>
+                    <div class="col-lg-3 mb-4 text-center text-lg-end">
+                        <div class="box-button-slider">
+                            <div class="swiper-button-prev swiper-button-inline swiper-button-prev-style-1 swiper-button-prev-style-6">
+                                <svg width="18" height="12" viewBox="0 0 18 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M6 2.62268e-07C6 0.636 5.45025 1.58571 4.89375 2.38286C4.17825 3.41143 3.32325 4.30886 2.343 4.99371C1.608 5.50714 0.717 6 -2.62268e-07 6M-2.62268e-07 6C0.717 6 1.60875 6.49286 2.343 7.00629C3.32325 7.692 4.17825 8.58943 4.89375 9.61629C5.45025 10.4143 6 11.3657 6 12M-2.62268e-07 6L18 6" stroke="" stroke-width="1.5" />
+                                </svg>
+                            </div>
+                            <div class="swiper-button-next swiper-button-inline swiper-button-next-style-1 swiper-button-next-style-6">
+                                <svg width="18" height="12" viewBox="0 0 18 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M12 12C12 11.364 12.5498 10.4143 13.1063 9.61714C13.8218 8.58857 14.6768 7.69114 15.657 7.00629C16.392 6.49286 17.283 6 18 6M18 6C17.283 6 16.3913 5.50714 15.657 4.99371C14.6768 4.308 13.8218 3.41057 13.1063 2.38371C12.5498 1.58571 12 0.634285 12 -3.81478e-07M18 6L2.62268e-07 6" stroke="" stroke-width="1.5" />
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="box-swiper mt-60">
+                    <div class="swiper-container slider-group-1">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="row position-relative">
+                                    <div class="col-lg-6">
+                                        <div class="card-blog card-blog-3">
+                                            <div class="card-image">
+                                                <a href="#"><img src="assets/imgs/pages/home9/news.png" alt="Vatech" /></a>
+                                                <span class="card-date">25 January</span>
+                                            </div>
+                                            <div class="card-info">
+                                                <div class="card-meta">
+                                                    <span class="comment">Comments</span>
+                                                    <span class="by-user">By Admin</span>
+                                                </div>
+                                                <div class="card-title">
+                                                    <a href="#" class="link-title heading-ag-lg">Dive into Our Consulting Agency's Blog for Visionary Content</a>
+                                                    <div class="desc-news paragraph-rubik-r">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatu Ut enim ad minima veniam.</div>
+                                                    <a href="#" class="link-readmore">Read More
+                                                        <svg width="15" height="10" viewBox="0 0 15 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                            <path d="M10 10C10 9.47 10.4581 8.67857 10.9219 8.01429C11.5181 7.15714 12.2306 6.40929 13.0475 5.83857C13.66 5.41071 14.4025 5 15 5M15 5C14.4025 5 13.6594 4.58929 13.0475 4.16143C12.2306 3.59 11.5181 2.84214 10.9219 1.98643C10.4581 1.32143 10 0.528572 10 3.7749e-07M15 5L2.18557e-07 5" stroke="" stroke-width="1.5" />
+                                                        </svg>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="card-blog card-blog-4">
+                                            <div class="card-image">
+                                                <a href="#"><img src="assets/imgs/pages/home9/news2.png" alt="Vatech" /></a>
+                                            </div>
+                                            <div class="card-info">
+                                                <div class="card-meta">
+                                                    <span class="comment">Comments</span>
+                                                    <span class="by-user">By Admin</span>
+                                                </div>
+                                                <div class="card-title">
+                                                    <a href="#" class="link-title">Insights from Our Consulting Experts</a>
+                                                    <a href="#" class="link-readmore">Read More
+                                                        <svg width="15" height="10" viewBox="0 0 15 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                            <path d="M10 10C10 9.47 10.4581 8.67857 10.9219 8.01429C11.5181 7.15714 12.2306 6.40929 13.0475 5.83857C13.66 5.41071 14.4025 5 15 5M15 5C14.4025 5 13.6594 4.58929 13.0475 4.16143C12.2306 3.59 11.5181 2.84214 10.9219 1.98643C10.4581 1.32143 10 0.528572 10 3.7749e-07M15 5L2.18557e-07 5" stroke="" stroke-width="1.5" />
+                                                        </svg>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="card-blog card-blog-4">
+                                            <div class="card-image">
+                                                <a href="#"><img src="assets/imgs/pages/home9/news3.png" alt="Vatech" /></a>
+                                            </div>
+                                            <div class="card-info">
+                                                <div class="card-meta">
+                                                    <span class="comment">Comments</span>
+                                                    <span class="by-user">By Admin</span>
+                                                </div>
+                                                <div class="card-title">
+                                                    <a href="#" class="link-title">Insights from Our Consulting Experts</a>
+                                                    <a href="#" class="link-readmore">Read More
+                                                        <svg width="15" height="10" viewBox="0 0 15 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                            <path d="M10 10C10 9.47 10.4581 8.67857 10.9219 8.01429C11.5181 7.15714 12.2306 6.40929 13.0475 5.83857C13.66 5.41071 14.4025 5 15 5M15 5C14.4025 5 13.6594 4.58929 13.0475 4.16143C12.2306 3.59 11.5181 2.84214 10.9219 1.98643C10.4581 1.32143 10 0.528572 10 3.7749e-07M15 5L2.18557e-07 5" stroke="" stroke-width="1.5" />
+                                                        </svg>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="row position-relative">
+                                    <div class="col-lg-6">
+                                        <div class="card-blog card-blog-3">
+                                            <div class="card-image">
+                                                <a href="#"><img src="assets/imgs/pages/home1/blog.png" alt="Vatech" /></a>
+                                                <span class="card-date">25 January</span>
+                                            </div>
+                                            <div class="card-info">
+                                                <div class="card-meta">
+                                                    <span class="comment">Comments</span>
+                                                    <span class="by-user">By Admin</span>
+                                                </div>
+                                                <div class="card-title">
+                                                    <a href="#" class="link-title heading-ag-lg">Dive into Our Consulting Agency's Blog for Visionary Content</a>
+                                                    <div class="desc-news paragraph-rubik-r">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatu Ut enim ad minima veniam.</div>
+                                                    <a href="#" class="link-readmore">Read More
+                                                        <svg width="15" height="10" viewBox="0 0 15 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                            <path d="M10 10C10 9.47 10.4581 8.67857 10.9219 8.01429C11.5181 7.15714 12.2306 6.40929 13.0475 5.83857C13.66 5.41071 14.4025 5 15 5M15 5C14.4025 5 13.6594 4.58929 13.0475 4.16143C12.2306 3.59 11.5181 2.84214 10.9219 1.98643C10.4581 1.32143 10 0.528572 10 3.7749e-07M15 5L2.18557e-07 5" stroke="" stroke-width="1.5" />
+                                                        </svg>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="card-blog card-blog-4">
+                                            <div class="card-image">
+                                                <a href="#"><img src="assets/imgs/pages/home3/img-news.png" alt="Vatech" /></a>
+                                            </div>
+                                            <div class="card-info">
+                                                <div class="card-meta">
+                                                    <span class="comment">Comments</span>
+                                                    <span class="by-user">By Admin</span>
+                                                </div>
+                                                <div class="card-title">
+                                                    <a href="#" class="link-title">Insights from Our Consulting Experts</a>
+                                                    <a href="#" class="link-readmore">Read More
+                                                        <svg width="15" height="10" viewBox="0 0 15 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                            <path d="M10 10C10 9.47 10.4581 8.67857 10.9219 8.01429C11.5181 7.15714 12.2306 6.40929 13.0475 5.83857C13.66 5.41071 14.4025 5 15 5M15 5C14.4025 5 13.6594 4.58929 13.0475 4.16143C12.2306 3.59 11.5181 2.84214 10.9219 1.98643C10.4581 1.32143 10 0.528572 10 3.7749e-07M15 5L2.18557e-07 5" stroke="" stroke-width="1.5" />
+                                                        </svg>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="card-blog card-blog-4">
+                                            <div class="card-image">
+                                                <a href="#"><img src="assets/imgs/pages/home3/img-news.png" alt="Vatech" /></a>
+                                            </div>
+                                            <div class="card-info">
+                                                <div class="card-meta">
+                                                    <span class="comment">Comments</span>
+                                                    <span class="by-user">By Admin</span>
+                                                </div>
+                                                <div class="card-title">
+                                                    <a href="#" class="link-title">Insights from Our Consulting Experts</a>
+                                                    <a href="#" class="link-readmore">Read More
+                                                        <svg width="15" height="10" viewBox="0 0 15 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                            <path d="M10 10C10 9.47 10.4581 8.67857 10.9219 8.01429C11.5181 7.15714 12.2306 6.40929 13.0475 5.83857C13.66 5.41071 14.4025 5 15 5M15 5C14.4025 5 13.6594 4.58929 13.0475 4.16143C12.2306 3.59 11.5181 2.84214 10.9219 1.98643C10.4581 1.32143 10 0.528572 10 3.7749e-07M15 5L2.18557e-07 5" stroke="" stroke-width="1.5" />
+                                                        </svg>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+    <!-- prettier-ignore -->
+    <!-- Footer 2 -->
+    <footer class="footer-2 footer-style-home-9">
+        <div class="top-footer">
+            <div class="container">
+                <div class="box-contact-phone">
+                    <div class="contact-phone">
+                        <div class="icon-contact">
+                            <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M15.269 6.95462H18.0493V9.73646C18.0493 10.5015 18.6748 11.1274 19.4394 11.1274C20.204 11.1274 20.8295 10.5015 20.8295 9.73646V6.95462H23.6098C24.3744 6.95462 25 6.3287 25 5.56369C25 4.79869 24.3744 4.17277 23.6098 4.17277H20.8295V1.39092C20.8295 0.625915 20.204 0 19.4394 0C18.6748 0 18.0493 0.625915 18.0493 1.39092V4.17277H15.269C14.5044 4.17277 13.8788 4.79869 13.8788 5.56369C13.8788 6.3287 14.5044 6.95462 15.269 6.95462ZM22.5116 17.0666L18.9807 16.6633C18.5655 16.6145 18.1446 16.6605 17.7498 16.7978C17.3549 16.9351 16.9963 17.1602 16.7008 17.4561L14.1429 20.0154C10.1966 18.0072 6.98891 14.7978 4.98184 10.8492L7.55362 8.27599C8.15138 7.6779 8.44332 6.82943 8.34601 5.99488L7.94286 2.48975C7.86779 1.81097 7.54579 1.18354 7.0382 0.726965C6.53061 0.270395 5.87291 0.0165948 5.19037 0.0139092H2.78541C1.21454 0.0139092 -0.0922038 1.32138 0.00510669 2.89312C0.741886 14.7716 10.2366 24.2577 22.0946 24.9949C23.6655 25.0923 24.9722 23.7848 24.9722 22.213V19.8067C24.9861 18.4158 23.9157 17.2196 22.5116 17.0666Z" fill="" />
+                            </svg>
+                        </div>
+                        <span class="sub-heading-sm dark-950">
+                            Call for help:<br />
+                            (+055) 6489 6448
+                        </span>
+                    </div>
+                    <div class="contact-email">
+                        <div class="icon-contact">
+                            <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M24.5673 8.50093L13.0288 0.166744C12.8708 0.0578401 12.6873 0 12.5 0C12.3127 0 12.1292 0.0578401 11.9712 0.166744L0.432731 8.50093C0.298671 8.59516 0.188731 8.72452 0.113094 8.87704C0.0374577 9.02955 -0.00142782 9.20028 4.00685e-05 9.37341V22.9165C4.00685e-05 23.469 0.202649 23.999 0.563294 24.3897C0.92394 24.7805 1.41308 25 1.92311 25H23.0769C23.5869 25 24.0761 24.7805 24.4367 24.3897C24.7973 23.999 25 23.469 25 22.9165V9.37341C25.0014 9.20028 24.9625 9.02955 24.8869 8.87704C24.8113 8.72452 24.7013 8.59516 24.5673 8.50093ZM12.5 2.28936L22.3437 9.39945L14.2909 15.624H10.7091L2.65628 9.39945L12.5 2.28936ZM1.92311 22.9165V11.3918L9.84376 17.5123C10.0047 17.6384 10.198 17.7067 10.3966 17.7076H14.6034C14.802 17.7067 14.9953 17.6384 15.1562 17.5123L23.0769 11.3918V22.9165H1.92311Z" fill="" />
+                            </svg>
+                        </div>
+                        <span class="sub-heading-sm dark-950">
+                            Mail To Us<br />
+                            Envato@gmail.com
+                        </span>
+                    </div>
+                    <div class="contact-location">
+                        <div class="icon-contact">
+                            <svg width="25" height="29" viewBox="0 0 25 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M19.7368 10.4984C20.1096 10.4984 20.4219 10.3728 20.6737 10.1217C20.9263 9.86977 21.0526 9.55788 21.0526 9.18606V6.56147H23.6842C24.057 6.56147 24.3693 6.43549 24.6211 6.18353C24.8737 5.93245 25 5.621 25 5.24918C25 4.87736 24.8737 4.56547 24.6211 4.31351C24.3693 4.06243 24.057 3.93688 23.6842 3.93688H21.0526V1.31229C21.0526 0.940478 20.9263 0.628589 20.6737 0.376629C20.4219 0.125543 20.1096 0 19.7368 0C19.364 0 19.0518 0.125543 18.8 0.376629C18.5474 0.628589 18.4211 0.940478 18.4211 1.31229V3.93688H15.7895C15.4167 3.93688 15.1044 4.06243 14.8526 4.31351C14.6 4.56547 14.4737 4.87736 14.4737 5.24918C14.4737 5.621 14.6 5.93245 14.8526 6.18353C15.1044 6.43549 15.4167 6.56147 15.7895 6.56147H18.4211V9.18606C18.4211 9.55788 18.5474 9.86977 18.8 10.1217C19.0518 10.3728 19.364 10.4984 19.7368 10.4984ZM10.5263 15.7475C11.25 15.7475 11.8697 15.4903 12.3855 14.9759C12.9004 14.4624 13.1579 13.8447 13.1579 13.1229C13.1579 12.4012 12.9004 11.7831 12.3855 11.2687C11.8697 10.7551 11.25 10.4984 10.5263 10.4984C9.80263 10.4984 9.18333 10.7551 8.66842 11.2687C8.15263 11.7831 7.89474 12.4012 7.89474 13.1229C7.89474 13.8447 8.15263 14.4624 8.66842 14.9759C9.18333 15.4903 9.80263 15.7475 10.5263 15.7475ZM10.5263 28.3784C10.3509 28.3784 10.1754 28.3456 10 28.28C9.82456 28.2143 9.67105 28.1269 9.53947 28.0175C6.33772 25.1961 3.94737 22.5772 2.36842 20.1608C0.789474 17.7435 0 15.4851 0 13.3854C0 10.1047 1.05833 7.49102 3.175 5.54445C5.29079 3.59788 7.74123 2.62459 10.5263 2.62459C10.7456 2.62459 10.9649 2.62984 11.1842 2.64034C11.4035 2.65171 11.6228 2.66833 11.8421 2.6902V5.3476C11.6228 5.30386 11.4088 5.2763 11.2 5.26493C10.9921 5.25443 10.7675 5.24918 10.5263 5.24918C8.3114 5.24918 6.44167 6.009 4.91711 7.52864C3.39342 9.04915 2.63158 11.0014 2.63158 13.3854C2.63158 14.9383 3.27851 16.7151 4.57237 18.716C5.86623 20.7176 7.85088 22.9433 10.5263 25.3929C13.2018 22.9433 15.1864 20.7176 16.4803 18.716C17.7741 16.7151 18.4211 14.9383 18.4211 13.3854V13.1229H21.0526V13.3854C21.0526 15.4851 20.2632 17.7435 18.6842 20.1608C17.1053 22.5772 14.7149 25.1961 11.5132 28.0175C11.3816 28.1269 11.2281 28.2143 11.0526 28.28C10.8772 28.3456 10.7018 28.3784 10.5263 28.3784Z" fill="" />
+                            </svg>
+                        </div>
+                        <span class="sub-heading-sm dark-950">
+                            Address<br />
+                            380 Albert St, New York, USA
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid ft-bgr section-footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-md-6">
+                        <a class="navbar-brand pe-4" href="index.html"><img src="assets/imgs/template/logo.svg" alt /></a>
+                        <p class="paragraph-base color-white pt-4 pb-2">we denounce with righteous indignation and dislike men who are so beguiled demoralized by the charms</p>
+                        <div class="box-social-profile pt-2">
+                            <div class="list-socials">
+                                <a href="#" class="share fb"></a>
+                                <a href="#" class="share tw"></a>
+                                <a href="#" class="share instagram"></a>
+                                <a href="#" class="share printest"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <h3 class="text-footer pb-1">Menu</h3>
+                        <div class="d-flex flex-column align-items-start">
+                            <a class="hover-effect paragraph-base grey-100 pt-4" href="#">Company</a>
+                            <a class="hover-effect paragraph-base grey-100 pt-2" href="#">Careers</a>
+                            <a class="hover-effect paragraph-base grey-100 pt-2" href="#">Press media</a>
+                            <a class="hover-effect paragraph-base grey-100 pt-2" href="#">Our Blog</a>
+                            <a class="hover-effect paragraph-base grey-100 pt-2" href="#">Privacy Policy</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <h3 class="text-footer pb-1">Useful Link</h3>
+                        <div class="d-flex flex-column align-items-start">
+                            <a class="hover-effect paragraph-base grey-100 pt-4" href="#">How it’s Work</a>
+                            <a class="hover-effect paragraph-base grey-100 pt-2" href="#">Partners</a>
+                            <a class="hover-effect paragraph-base grey-100 pt-2" href="#">Testimonials</a>
+                            <a class="hover-effect paragraph-base grey-100 pt-2" href="#">Case Studies</a>
+                            <a class="hover-effect paragraph-base grey-100 pt-2" href="#">Pricing</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <h3 class="text-footer pb-1">Subscribe Newsletter</h3>
+                        <div class="pt-4">
+                            <p class="paragraph-base color-white">I’m okey with getting emails and having that tracked to improve my experience</p>
+                        </div>
+                        <div class="pt-3">
+                            <div class="form-newsletter">
+                                <form action="#">
+                                    <input type="text" class="form-control" placeholder="Email Address" />
+                                    <input type="submit" class="btn btn-newsletter" value="" />
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid footer-1 px-0">
+            <div class="footer">
+                <div class="container py-4">
+                    <div class="footer-bottom">
+                        <div class="row paragraph-base">
+                            <div class="col">
+                                <div class="small color-white">Copyright © Vatech 2024. Alright Reserved.</div>
+                            </div>
+                            <div class="col d-flex justify-content-end">
+                                <p class="color-white">Designed By <a class="text-white" href="https://alithemes.com" target="_blank">Alithemes</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll top -->
+    <div class="btn-scroll-top">
+        <svg class="progress-square svg-content" width="100%" height="100%" viewBox="0 0 40 40">
+            <path d="M8 1H32C35.866 1 39 4.13401 39 8V32C39 35.866 35.866 39 32 39H8C4.13401 39 1 35.866 1 32V8C1 4.13401 4.13401 1 8 1Z" />
+        </svg>
+    </div>
+
+    <!-- Libs JS -->
+    <script src="assets/js/vendors/jquery-3.7.1.min.js"></script>
+    <script src="assets/js/vendors/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/vendors/masonry.pkgd.min.js" integrity="sha384-GNFwBvfVxBkLMJpYMOABq3c+d3KnQxudP/mGPkzpZSTYykLBNsZEnG2D9G/X/+7D" crossorigin="anonymous" async></script>
+    <script src="assets/js/vendors/swiper-bundle.min.js"></script>
+    <script src="assets/js/vendors/aos.js"></script>
+    <script src="assets/js/vendors/wow.min.js"></script>
+    <script src="assets/js/vendors/jquery.appear.js"></script>
+    <script src="assets/js/vendors/jquery.odometer.min.js"></script>
+    <script src="assets/js/vendors/headhesive.min.js"></script>
+    <script src="assets/js/vendors/smart-stick-nav.js"></script>
+    <script src="assets/js/vendors/jquery.magnific-popup.min.js"></script>
+    <script src="assets/js/vendors/gsap.min.js"></script>
+    <script src="assets/js/vendors/ScrollToPlugin.min.js"></script>
+    <script src="assets/js/vendors/ScrollTrigger.min.js"></script>
+    <!-- Theme JS -->
+    <script src="assets/js/gsap-custom.js"></script>
+    <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
