@@ -1,8 +1,6 @@
  
-import BlogSetion from "../../components/Blogs";
-import Footer from "../../components/Footer";
-import GetStarted from "../../components/GetStarted";
-import Navbar from "../../components/Navbar";
+import BlogSetion from "../../components/Blogs"; 
+import GetStarted from "../../components/GetStarted"; 
 import OurProcess from "../../components/OurProcess";
 import AboutSection from "../AboutUs/AboutSection";
 import Hero from "./Hero";
@@ -11,14 +9,14 @@ import ServiceSection from "./ServiceSections";
 function HomePage() {
     return (
         <>
-            <Navbar />
+           
             <Hero />
             <AboutSection />
             <ServiceSection />
             <OurProcess />
             <GetStarted />
             <BlogSetion />
-            <Footer />
+             
         </>
   );
 }

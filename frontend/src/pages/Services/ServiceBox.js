@@ -1,3 +1,4 @@
+import React from 'react';
 function ServiceBox() {
   return (
       <div className="row mt-5">
