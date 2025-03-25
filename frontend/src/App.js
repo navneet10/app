@@ -1,21 +1,20 @@
-import './App.css'; 
+import './App.css';
 import React from "react";
 import { BrowserRouter as Router } from "react-router-dom";
 import Navbar from './components/Navbar';
 import AppRouter from './routes/AppRoutes';
 import Footer from './components/Footer';
-
-
+import 'aos/dist/aos.css';
+import AOS from 'aos';
+AOS.init();
 function App() {
-  return (
-      <Router>
-
-          
-          <Navbar />
-          <AppRouter />
-          <Footer/>
-      </Router>
-  );
+    return (
+        <Router>
+            <Navbar />  
+            <AppRouter />
+            <Footer /> 
+        </Router>
+    );
 }
 
 export default App;

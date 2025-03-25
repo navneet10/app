@@ -6,8 +6,7 @@ import reportWebVitals from './reportWebVitals';
 // Importing the Bootstrap CSS
 import 'bootstrap/dist/css/bootstrap.min.css'; 
 // Importing the aos  CSS & js
-import 'aos/dist/aos.css';
-import 'aos/dist/aos.js';
+
 import './assets/css/main.css';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
