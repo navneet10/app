@@ -29,7 +29,7 @@ function LeftBar() {
                 </a>
             </li>
             <li className="nav-item">
-                <a className="nav-link" href="#">
+                <a className="nav-link" href="/menu">
                     <i className="fas fa-fw fa-wrench"></i>
                     <span>Menu</span>
                 </a>

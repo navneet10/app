@@ -9,10 +9,10 @@ app.use(express.json());
 
 // Database connection
 const db = mysql.createConnection({
-    host: process.env.DB_HOST || 'localhost',
+    host: process.env.DB_HOST || '127.0.0.1',
     user: process.env.DB_USER || 'root',
     password: process.env.DB_PASSWORD || '',
-    database: process.env.DB_DATABASE || 'ecommerce_db'
+    database: process.env.DB_DATABASE || 'db'
 });
 
 db.connect(err => {
@@ -34,4 +34,6 @@ app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
 module.exports = db;
 
 const userRoutes = require('./routes/userRoutes');
+const menuRoutes = require('./routes/menuRoutes');
 app.use('/api', userRoutes);
+app.use('/api', menuRoutes);
