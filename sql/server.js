@@ -35,5 +35,5 @@ module.exports = db;
 
 const userRoutes = require('./routes/userRoutes');
 const menuRoutes = require('./routes/menuRoutes');
-app.use('/api', userRoutes);
-app.use('/api', menuRoutes);
+app.use('/link', userRoutes);
+app.use('/link', menuRoutes);

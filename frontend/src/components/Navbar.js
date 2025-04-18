@@ -1,9 +1,25 @@
 import React, { useState, useEffect } from 'react';
 import { NavLink } from "react-router-dom";
 import logo from "../assets/imgs/template/logo.svg";
+import { fetchData } from "../services/api";
+
 
 function Navbar() {
     const [isMenuOpen, setMenuOpen] = useState(false);
+    const [menuItems, setMenuItems] = useState([]);
+
+    useEffect(() => {
+        const getMenu = async () => {
+            const data = await fetchData("menu");
+            if (data) {
+                const sortedMenu = data.sort((a, b) => a.index - b.index);
+                setMenuItems(sortedMenu);
+            } 
+        };
+        getMenu();
+    },[]);
+     
+
 
     // Handle scroll effect on navbar
     useEffect(() => {
@@ -48,25 +64,11 @@ function Navbar() {
                   <div className="container px-3">
                       <a className="navbar-brand pe-4" href="index.html"><img src={logo} alt="" /></a>
                       <ul className={`navbar-nav m-auto gap-1 align-items-lg-center ${isMenuOpen ? 'show' : ''}`}>
-                          <li className="nav-item">
-                              <NavLink className="nav-link fw-medium" to="/">Home</NavLink>
-                          </li>
-                          <li className="nav-item">
-                              <NavLink className="nav-link fw-medium" to="/about">About</NavLink>
-                          </li>
-                          <li className="nav-item"> 
-                              <NavLink className="nav-link fw-medium" to="/services">Services</NavLink> 
-                          </li>
-                          <li className="nav-item">
-                              <NavLink className="nav-link fw-medium" to="/project">Project</NavLink>
-                          </li>
-                          <li className="nav-item">
-                              <NavLink className="nav-link fw-medium" to="/blog">Blog</NavLink>
-                              
-                          </li>
-                          <li className="nav-item  ">
-                              <NavLink className="nav-link fw-medium" to="/contact">ContactUs</NavLink>
-                          </li>
+                          {menuItems.map((item, index) => (
+                              <li className="nav-item" key={index}>
+                                  <NavLink className="nav-link fw-medium" to={item.link}>{item.name}</NavLink>
+                              </li>
+                          ))} 
                       </ul>
 
                       <div className="d-flex align-items-center">
@@ -85,13 +87,11 @@ function Navbar() {
                           </a>
                       </div>
                   </div>
-              </nav>
-               
-
+              </nav> 
           </header>
 
     </>
   );
 }
 
-export default Navbar;
+export default Navbar;  
