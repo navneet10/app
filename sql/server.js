@@ -33,7 +33,22 @@ app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
 
 module.exports = db;
 
-const userRoutes = require('./routes/userRoutes');
+const aboutRoutes = require('./routes/AboutRoutes');
 const menuRoutes = require('./routes/menuRoutes');
-app.use('/link', userRoutes);
+const bannerRoutes = require('./routes/BannerRoutes');
+const blogsRoutes = require('./routes/BlogsRoutes');
+const contactInfoRoutes = require('./routes/ContactInfoRoutes');
+const titlteRoutes = require('./routes/TitlteRoutes');
+const footerRoutes = require('./routes/FooterRoutes');
+const footerMenuRoutes = require('./routes/FooterMenuRoutes');
+const provideStepsRoutes = require('./routes/ProvideStepsRoutes');
+const servicesRoutes = require('./routes/ServicesRoutes');
+app.use('/link', aboutRoutes);
 app.use('/link', menuRoutes);
+app.use('/link', bannerRoutes);
+app.use('/link', blogsRoutes);
+app.use('/link', contactInfoRoutes);
+app.use('/link', footerRoutes);
+app.use('/link', footerMenuRoutes);
+app.use('/link', provideStepsRoutes);
+app.use('/link', servicesRoutes);
