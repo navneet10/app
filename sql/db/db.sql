@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Apr 18, 2025 at 03:17 PM
+-- Generation Time: May 12, 2025 at 03:28 PM
 -- Server version: 10.4.32-MariaDB
 -- PHP Version: 8.2.12
 
@@ -35,15 +35,41 @@ CREATE TABLE `about` (
   `list` varchar(225) NOT NULL,
   `content` text NOT NULL,
   `button_text` varchar(100) NOT NULL,
-  `button_link` varchar(255) NOT NULL
+  `button_link` varchar(255) NOT NULL,
+  `sub_title` text NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
 -- Dumping data for table `about`
 --
 
-INSERT INTO `about` (`id`, `img1`, `img2`, `title`, `list`, `content`, `button_text`, `button_link`) VALUES
-(1, 'about.png', 'about2.png', 'Crafting Success Stories\r\nOne Client Time', 'You can contact our customer support, We offer a range of services including', 'We provide technical support to assist you with any issues orai questions you may have regarding our services Yes, we offerm customizable solutions tailored', 'Read More', '/about');
+INSERT INTO `about` (`id`, `img1`, `img2`, `title`, `list`, `content`, `button_text`, `button_link`, `sub_title`) VALUES
+(1, 'about.png', 'about2.png', 'Crafting Success Stories\r\nOne Client Time', 'You can contact our customer support, We offer a range of services including', 'We provide technical support to assist you with any issues orai questions you may have regarding our services Yes, we offerm customizable solutions tailored', 'Read More', '/about', 'About us');
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `all_title`
+--
+
+CREATE TABLE `all_title` (
+  `id` int(11) NOT NULL,
+  `bg_image` text NOT NULL,
+  `small_text` text NOT NULL,
+  `title` text NOT NULL,
+  `button_text` text NOT NULL,
+  `button_link` text NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+--
+-- Dumping data for table `all_title`
+--
+
+INSERT INTO `all_title` (`id`, `bg_image`, `small_text`, `title`, `button_text`, `button_link`) VALUES
+(1, '', 'Service We Provide', 'An effective way to achieve\r\nsuccess to Our Work', '', ''),
+(2, '', 'Latest Blog', 'Our Latest Trending Blogs & News', 'Explore More', '/contact'),
+(3, '', 'services', 'What we Have to Offer For your SERVICES', 'View all services', '/services'),
+(4, 'banner.png', '', 'Our New Models Consulting Services Programs', 'Get started', '/contact');
 
 -- --------------------------------------------------------
 
@@ -57,15 +83,17 @@ CREATE TABLE `banner` (
   `small_text` text NOT NULL,
   `title` text NOT NULL,
   `button_text` varchar(225) NOT NULL,
-  `button_link` varchar(225) NOT NULL
+  `button_link` varchar(225) NOT NULL,
+  `icons` text NOT NULL,
+  `text` text NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci COMMENT='3';
 
 --
 -- Dumping data for table `banner`
 --
 
-INSERT INTO `banner` (`id`, `bg_image`, `small_text`, `title`, `button_text`, `button_link`) VALUES
-(1, 'uploads/banner.jpg', 'how it works', 'Strategic Solutions for Sustainable Growth', 'Schedule a Consultation', '/contactus');
+INSERT INTO `banner` (`id`, `bg_image`, `small_text`, `title`, `button_text`, `button_link`, `icons`, `text`) VALUES
+(1, 'banner.png', 'how it works', 'Strategic Solutions for Sustainable Growth', 'Schedule a Consultation', '/contact', 'phone.png', 'Need Help?');
 
 -- --------------------------------------------------------
 
@@ -90,27 +118,6 @@ INSERT INTO `blogs` (`id`, `image`, `title`, `button_text`, `button_link`, `crea
 (1, 'blog.png', 'Exclusive Updates and Analysis in Our Consulting Agency Blog', 'Read More', '/blog-d', '0000-00-00 00:00:00'),
 (2, 'blog.png', 'Breaking Down Complex Issues in Our Consulting Agency Blog', 'Read More', '/blog-d', '0000-00-00 00:00:00'),
 (3, 'blog.png', 'Breaking Down Complex Issues in Ou ', 'Read More', '/blog-d', '0000-00-00 00:00:00');
-
--- --------------------------------------------------------
-
---
--- Table structure for table `blog_section`
---
-
-CREATE TABLE `blog_section` (
-  `id` int(11) NOT NULL,
-  `small_text` text NOT NULL,
-  `title` text NOT NULL,
-  `button_text` varchar(100) NOT NULL,
-  `button_link` varchar(255) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
-
---
--- Dumping data for table `blog_section`
---
-
-INSERT INTO `blog_section` (`id`, `small_text`, `title`, `button_text`, `button_link`) VALUES
-(1, 'Latest Blog', 'Our Latest Trending\r\nBlogs & News', 'Explore More', 'log');
 
 -- --------------------------------------------------------
 
@@ -176,25 +183,6 @@ INSERT INTO `footer_menu` (`id`, `name`, `link`) VALUES
 -- --------------------------------------------------------
 
 --
--- Table structure for table `how_we_provide`
---
-
-CREATE TABLE `how_we_provide` (
-  `id` int(11) NOT NULL,
-  `sub_text` text NOT NULL,
-  `title` text NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
-
---
--- Dumping data for table `how_we_provide`
---
-
-INSERT INTO `how_we_provide` (`id`, `sub_text`, `title`) VALUES
-(1, 'Service We Provide', 'An effective way to achieve\r\nsuccess to Our Work');
-
--- --------------------------------------------------------
-
---
 -- Table structure for table `how_we_provide_steps`
 --
 
@@ -243,27 +231,6 @@ INSERT INTO `menu` (`id`, `name`, `link`, `index`) VALUES
 -- --------------------------------------------------------
 
 --
--- Table structure for table `model_section`
---
-
-CREATE TABLE `model_section` (
-  `id` int(11) NOT NULL,
-  `bg_image` varchar(255) NOT NULL,
-  `title` text NOT NULL,
-  `button_text` varchar(100) NOT NULL,
-  `button_link` varchar(255) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
-
---
--- Dumping data for table `model_section`
---
-
-INSERT INTO `model_section` (`id`, `bg_image`, `title`, `button_text`, `button_link`) VALUES
-(1, 'banner.png', 'Our New Models Consulting Services Programs', 'Get started', '/contact');
-
--- --------------------------------------------------------
-
---
 -- Table structure for table `services`
 --
 
@@ -272,39 +239,18 @@ CREATE TABLE `services` (
   `icon` varchar(255) NOT NULL,
   `title` varchar(255) NOT NULL,
   `description` text NOT NULL,
-  `read_more` varchar(255) NOT NULL,
-  `read_more_link` text NOT NULL
+  `button_text` varchar(255) NOT NULL,
+  `button_link` text NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
 -- Dumping data for table `services`
 --
 
-INSERT INTO `services` (`id`, `icon`, `title`, `description`, `read_more`, `read_more_link`) VALUES
-(1, 'icon.svg', 'UI/UX DESIGNING', 'nulla pariatu Ut enim ad minima veniam, quis nostrum veniam', 'Read More', '/details'),
-(2, 'icon.svg', 'PRODUCT DESIGN', 'nulla pariatu Ut enim ad minima veniam, quis nostrum veniam', 'Read More', '/details'),
-(3, 'icon.svg', 'DIGITAL MARKETING', 'nulla pariatu Ut enim ad minima veniam, quis nostrum veniam', 'Read More', '/details');
-
--- --------------------------------------------------------
-
---
--- Table structure for table `service_section`
---
-
-CREATE TABLE `service_section` (
-  `id` int(11) NOT NULL,
-  `sub_title` text NOT NULL,
-  `title` int(11) NOT NULL,
-  `button_text` varchar(100) NOT NULL,
-  `button_link` varchar(225) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
-
---
--- Dumping data for table `service_section`
---
-
-INSERT INTO `service_section` (`id`, `sub_title`, `title`, `button_text`, `button_link`) VALUES
-(1, 'sERVICES', 0, 'View all services', '/services');
+INSERT INTO `services` (`id`, `icon`, `title`, `description`, `button_text`, `button_link`) VALUES
+(1, 'UIUXDESIGNING.svg', 'UI/UX DESIGNING', 'nulla pariatu Ut enim ad minima veniam, quis nostrum veniam', 'Read More', '/details'),
+(2, 'PRODUCTESIGN.svg', 'PRODUCT DESIGN', 'nulla pariatu Ut enim ad minima veniam, quis nostrum veniam', 'Read More', '/details'),
+(3, 'DIGITALMARKETING.svg', 'DIGITAL MARKETING', 'nulla pariatu Ut enim ad minima veniam, quis nostrum veniam', 'Read More', '/details');
 
 --
 -- Indexes for dumped tables
@@ -317,6 +263,12 @@ ALTER TABLE `about`
   ADD PRIMARY KEY (`id`);
 
 --
+-- Indexes for table `all_title`
+--
+ALTER TABLE `all_title`
+  ADD PRIMARY KEY (`id`);
+
+--
 -- Indexes for table `banner`
 --
 ALTER TABLE `banner`
@@ -326,12 +278,6 @@ ALTER TABLE `banner`
 -- Indexes for table `blogs`
 --
 ALTER TABLE `blogs`
-  ADD PRIMARY KEY (`id`);
-
---
--- Indexes for table `blog_section`
---
-ALTER TABLE `blog_section`
   ADD PRIMARY KEY (`id`);
 
 --
@@ -353,33 +299,15 @@ ALTER TABLE `footer_menu`
   ADD PRIMARY KEY (`id`);
 
 --
--- Indexes for table `how_we_provide`
---
-ALTER TABLE `how_we_provide`
-  ADD PRIMARY KEY (`id`);
-
---
 -- Indexes for table `how_we_provide_steps`
 --
 ALTER TABLE `how_we_provide_steps`
   ADD PRIMARY KEY (`id`);
 
 --
--- Indexes for table `model_section`
---
-ALTER TABLE `model_section`
-  ADD PRIMARY KEY (`id`);
-
---
 -- Indexes for table `services`
 --
 ALTER TABLE `services`
-  ADD PRIMARY KEY (`id`);
-
---
--- Indexes for table `service_section`
---
-ALTER TABLE `service_section`
   ADD PRIMARY KEY (`id`);
 COMMIT;
 

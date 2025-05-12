@@ -3,7 +3,7 @@ const BASE_URL = "http://localhost:5000/link";
 export const fetchData = async (endpoint) => {
     try {
         const response = await fetch(`${BASE_URL}/${endpoint}`);
-        console.log(response);
+       // console.log(response);
         if (!response.ok) {
             throw new Error(`Error ${response.status}: ${response.statusText}`);
         }

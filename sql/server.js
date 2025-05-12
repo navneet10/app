@@ -48,6 +48,7 @@ app.use('/link', menuRoutes);
 app.use('/link', bannerRoutes);
 app.use('/link', blogsRoutes);
 app.use('/link', contactInfoRoutes);
+app.use('/link', titlteRoutes);
 app.use('/link', footerRoutes);
 app.use('/link', footerMenuRoutes);
 app.use('/link', provideStepsRoutes);
